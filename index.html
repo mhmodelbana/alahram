@@ -1,0 +1,2241 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>الأهرام جروب | لابتوبات جديدة بضمان في المنصورة</title>
+    <meta name="description" content="الأهرام جروب في المنصورة: أكثر من 15 سنة خبرة في اللابتوبات الجديدة من Lenovo وASUS وHP. تصفح المواصفات والأسعار والضمان، وزرنا يوميًا من 12 ظهرًا حتى 10 مساءً.">
+    <meta name="theme-color" content="#09090b">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ar_EG">
+    <meta property="og:title" content="الأهرام جروب | لابتوبات جديدة في المنصورة">
+    <meta property="og:description" content="تصفح تشكيلة اللابتوبات الجديدة ومواصفاتها، واكتشف خبرة الأهرام جروب لأكثر من 15 سنة.">
+    <meta property="og:image" content="358706496_580501707620788_246587828789165369_n.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+
+    <!-- Google Fonts: Cairo -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        cairo: ['Cairo', 'sans-serif'],
+                    },
+                    colors: {
+                        tech: {
+                            primary: '#0066ff',   // Electric Blue from AG logo
+                            secondary: '#0041a8', // Deep Electric Blue
+                            accent: '#3385ff',    // Light Electric Blue
+                            dark: '#09090b',      // Pure AG Dark Black
+                            darker: '#121215',    // Slate Dark Black
+                            card: '#ffffff',      
+                            light: '#f8fafc',     
+                            danger: '#ef4444',    
+                            muted: '#52525b'      // Zinc Muted Text
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 10px 40px -10px rgba(0,0,0,0.08)',
+                        'soft-hover': '0 20px 40px -10px rgba(0, 102, 255, 0.2)',
+                        'glow': '0 0 20px rgba(0, 102, 255, 0.25)',
+                    },
+                    backgroundImage: {
+                        'gradient-tech': 'linear-gradient(135deg, #09090b, #0066ff)',
+                        'gradient-accent': 'linear-gradient(135deg, #0066ff, #0041a8)',
+                        'gradient-light': 'linear-gradient(135deg, #ffffff, #f1f5f9)',
+                    }
+                }
+            }
+        }
+    </script>
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "ComputerStore",
+            "name": "الأهرام جروب",
+            "alternateName": "Al-Ahram Group",
+            "description": "متجر لابتوبات جديدة في المنصورة بخبرة أكثر من 15 سنة.",
+            "image": "358706496_580501707620788_246587828789165369_n.jpg",
+            "telephone": "+201280001266",
+            "email": "alahramgroupeg1@gmail.com",
+            "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "9 شارع النصر، متفرع من شارع الجلاء، خلف مطعم البغل",
+                "addressLocality": "المنصورة",
+                "addressRegion": "الدقهلية",
+                "addressCountry": "EG"
+            },
+            "openingHours": "Mo-Su 12:00-22:00",
+            "sameAs": ["https://www.facebook.com/alahramgroupeg1"]
+        }
+    </script>
+
+    <style>
+        /* Responsive Typography Clamp */
+        :root {
+            --fluid-h1: clamp(2.5rem, 6vw, 4.5rem);
+            --fluid-h2: clamp(2rem, 5vw, 3.5rem);
+            --fluid-p: clamp(1rem, 1.5vw, 1.25rem);
+        }
+
+        body {
+            font-family: 'Cairo', sans-serif;
+            background-color: #ffffff;
+            color: #09090b;
+            overflow-x: hidden;
+        }
+
+        /* Custom Scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #f1f5f9; }
+        ::-webkit-scrollbar-thumb { background: #09090b; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #0066ff; }
+
+        /* Preloader */
+        #preloader {
+            position: fixed; inset: 0; background: #ffffff; z-index: 99999;
+            display: flex; flex-direction: column; justify-content: center; align-items: center;
+            transition: opacity 0.8s ease, visibility 0.8s ease;
+        }
+        .loader-hide { opacity: 0; visibility: hidden; }
+        
+        .tech-pulse { animation: techPulse 2s infinite ease-in-out; }
+        @keyframes techPulse {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 102, 255, 0.4); }
+            70% { transform: scale(1.05); box-shadow: 0 0 0 20px rgba(0, 102, 255, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(0, 102, 255, 0); }
+        }
+
+        /* Floating elements */
+        .float-slow { animation: floating 6s ease-in-out infinite; }
+        .float-fast { animation: floating 4s ease-in-out infinite reverse; }
+        @keyframes floating {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-12px); }
+            100% { transform: translateY(0px); }
+        }
+
+        /* Scroll Reveal Classes */
+        .reveal { opacity: 0; transform: translateY(30px); transition: all 0.8s cubic-bezier(0.5, 0, 0, 1); }
+        .reveal.active { opacity: 1; transform: translateY(0); }
+        .reveal-scale { opacity: 0; transform: scale(0.95); transition: all 0.6s cubic-bezier(0.5, 0, 0, 1); }
+        .reveal-scale.active { opacity: 1; transform: scale(1); }
+
+        /* Glassmorphism */
+        .glass-panel {
+            background: rgba(255, 255, 255, 0.9);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, 1);
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+        }
+
+        .fluid-h1 { font-size: var(--fluid-h1); line-height: 1.2; }
+        .fluid-h2 { font-size: var(--fluid-h2); line-height: 1.3; }
+        .fluid-p { font-size: var(--fluid-p); }
+        
+        .text-gradient {
+            background: var(--tw-gradient-stops);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        #mobile-menu {
+            opacity: 0; pointer-events: none;
+            transition: opacity 0.3s ease-in-out;
+        }
+        #mobile-menu.open {
+            opacity: 1; pointer-events: auto;
+        }
+
+        #catalog-search-panel {
+            position: fixed;
+            width: min(360px, calc(100vw - 2rem));
+        }
+
+        .customer-gallery {
+            display: grid;
+            grid-template-columns: minmax(0, 1fr) minmax(0, 1.18fr) minmax(0, 1fr);
+            align-items: center;
+            gap: clamp(0.35rem, 2.4vw, 1.5rem);
+        }
+
+        .customer-gallery-card {
+            min-width: 0;
+            overflow: hidden;
+            border: 1px solid #e4eaf2;
+            border-radius: 1rem;
+            background: #fff;
+            box-shadow: 0 12px 30px -22px rgba(9, 9, 11, 0.42);
+            opacity: 0.76;
+            transform: scale(0.88);
+            transition: opacity 500ms ease, transform 500ms ease, box-shadow 500ms ease;
+        }
+
+        .customer-gallery-card.is-center {
+            z-index: 1;
+            opacity: 1;
+            transform: scale(1);
+            border-color: #bfdbfe;
+            box-shadow: 0 24px 55px -32px rgba(0, 72, 180, 0.38);
+        }
+
+        .customer-gallery-card.is-entering {
+            animation: customer-gallery-enter 650ms cubic-bezier(0.22, 1, 0.36, 1) both;
+        }
+
+        .customer-gallery-photo {
+            width: 100%;
+            display: block;
+            height: clamp(180px, 23vw, 280px);
+            object-fit: cover;
+            background: #f1f5f9;
+            transition: filter 500ms ease, transform 700ms ease;
+        }
+
+        .customer-gallery-card:not(.is-center) .customer-gallery-photo {
+            filter: saturate(0.82);
+        }
+
+        .customer-gallery-card.is-center .customer-gallery-photo {
+            height: clamp(250px, 32vw, 390px);
+        }
+
+        .customer-gallery-card:hover .customer-gallery-photo {
+            transform: scale(1.025);
+        }
+
+        @keyframes customer-gallery-enter {
+            from { opacity: 0.35; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @media (max-width: 639px) {
+            .customer-gallery-card {
+                transform: scale(0.9);
+                border-radius: 0.8rem;
+            }
+
+            .customer-gallery-photo {
+                height: clamp(150px, 40vw, 205px);
+            }
+
+            .customer-gallery-card.is-center .customer-gallery-photo {
+                height: clamp(205px, 55vw, 275px);
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .customer-gallery-card,
+            .customer-gallery-card.is-center {
+                transition: none;
+                transform: none;
+            }
+
+            .customer-gallery-card.is-entering {
+                animation: none;
+            }
+        }
+
+        @media (max-width: 639px) {
+            :root {
+                --fluid-h1: clamp(2rem, 8vw, 2.5rem);
+                --fluid-h2: clamp(1.65rem, 7vw, 2.1rem);
+                --fluid-p: 0.95rem;
+            }
+
+            body {
+                padding-bottom: calc(76px + env(safe-area-inset-bottom));
+            }
+
+            section[id] {
+                scroll-margin-top: 5.5rem;
+            }
+
+            #products {
+                padding-top: 2rem;
+                padding-bottom: 2.5rem;
+            }
+
+            #products > .container > .text-center {
+                margin-bottom: 1.25rem;
+            }
+
+            #products-grid {
+                align-items: stretch;
+                gap: 0.65rem;
+            }
+
+            #products-grid > article {
+                display: flex;
+                flex-direction: column;
+                border-radius: 1rem;
+                box-shadow: 0 8px 24px -19px rgba(9, 9, 11, 0.45);
+            }
+
+            #products-grid > article > div:first-child {
+                padding: 0.5rem;
+            }
+
+            #products-grid > article > div:nth-child(2) {
+                display: flex;
+                flex: 1;
+                flex-direction: column;
+                padding: 0.65rem;
+            }
+
+            #products-grid > article > div:nth-child(2) > p:nth-of-type(1) {
+                min-height: 2rem;
+                line-height: 1.5;
+            }
+
+            #products-grid > article > div:nth-child(2) > div:nth-of-type(2) {
+                margin-top: auto;
+                padding-top: 0.55rem;
+            }
+
+            #products-grid > article > div:nth-child(2) > div:nth-of-type(2) button,
+            #products-grid > article > div:nth-child(2) > div:nth-of-type(2) a {
+                display: flex;
+                min-height: 2.5rem;
+                align-items: center;
+                justify-content: center;
+                line-height: 1.35;
+            }
+
+            #products select,
+            #products button {
+                touch-action: manipulation;
+            }
+
+            #products select {
+                min-height: 2.75rem;
+            }
+
+            #products .budget-filter {
+                padding: 0.75rem;
+                border-radius: 0.9rem;
+                background: #f8fafc;
+            }
+
+            #products .budget-filter input {
+                min-height: 1.5rem;
+            }
+
+            #products-grid > article > div:nth-child(2) > div:nth-of-type(2) {
+                display: grid;
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 0.4rem;
+            }
+
+            #products-grid > article > div:nth-child(2) > div:nth-of-type(2) button {
+                min-height: 2.35rem;
+                padding-left: 0.3rem;
+                padding-right: 0.3rem;
+                font-size: 0.68rem;
+            }
+
+            #customers {
+                padding-top: 2rem;
+                padding-bottom: 2.5rem;
+            }
+
+            #customers .customer-gallery {
+                gap: 0.15rem;
+            }
+
+            #customers .customer-gallery-card {
+                transform: scale(0.93);
+            }
+
+            #customers .customer-gallery-card.is-center {
+                transform: scale(1);
+            }
+
+            #customers .customer-gallery-photo {
+                height: clamp(145px, 40vw, 185px);
+            }
+
+            #customers .customer-gallery-card.is-center .customer-gallery-photo {
+                height: clamp(195px, 54vw, 245px);
+            }
+
+            #customers [aria-label="عناصر التحكم في ألبوم الصور"] {
+                gap: 0.55rem;
+            }
+
+            #customers [aria-label="اختيار صورة وسطى"] {
+                gap: 0.35rem;
+            }
+
+            #customers .customer-gallery-dot {
+                width: 0.45rem;
+                height: 0.45rem;
+            }
+
+            #customers .customer-gallery-dot.w-6 {
+                width: 1.25rem;
+            }
+
+            #customers [aria-label="الصورة السابقة"],
+            #customers [aria-label="الصورة التالية"] {
+                width: 2.25rem;
+                height: 2.25rem;
+            }
+
+            #customers #customer-gallery-count {
+                min-width: 2.5rem;
+                font-size: 0.7rem;
+            }
+
+            #about,
+            #faq {
+                padding-top: 2rem;
+                padding-bottom: 2rem;
+            }
+
+            #faq > .container {
+                padding-left: 1rem;
+                padding-right: 1rem;
+            }
+
+            #faq details {
+                padding: 0.85rem;
+            }
+
+            #faq summary {
+                min-height: 2.5rem;
+                display: flex;
+                align-items: center;
+                line-height: 1.6;
+            }
+
+            #branches {
+                margin-top: 2rem;
+                padding-top: 2.5rem;
+                padding-bottom: 1.25rem;
+            }
+
+            #branches > .container > .grid {
+                gap: 1.75rem;
+                padding-bottom: 1.75rem;
+                margin-bottom: 1.25rem;
+            }
+
+            #branches .grid > div {
+                min-width: 0;
+            }
+
+            #branches .grid > div:last-child > div {
+                padding: 1rem;
+            }
+
+            #product-details-modal {
+                align-items: flex-start;
+                padding: 0.65rem;
+            }
+
+            #product-details-modal > div {
+                max-height: calc(100dvh - 1.3rem);
+                border-radius: 1.1rem;
+            }
+
+            #product-details-modal > div > div > div:first-child {
+                min-height: 190px;
+                max-height: 235px;
+                padding: 2.75rem 1rem 1rem;
+            }
+
+            #product-details-modal > div > div > div:first-child img {
+                max-height: 190px;
+            }
+
+            #product-details-modal > div > div > div:last-child {
+                padding: 1.1rem;
+            }
+
+            #product-details-specs {
+                margin-top: 1rem;
+                gap: 0.6rem;
+                font-size: 0.8rem;
+                line-height: 1.65;
+            }
+
+            #mobile-contact-bar {
+                padding-bottom: calc(0.65rem + env(safe-area-inset-bottom));
+            }
+
+            #mobile-contact-bar a {
+                min-height: 2.8rem;
+            }
+
+        }
+
+        #compare-dock {
+            position: fixed;
+            z-index: 80;
+            inset-inline: 0.75rem;
+            bottom: 5.25rem;
+        }
+
+        @media (min-width: 768px) {
+            #compare-dock {
+                inset-inline: auto;
+                right: 50%;
+                bottom: 1.5rem;
+                transform: translateX(50%);
+            }
+        }
+
+        #compare-products {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));
+            max-height: 58vh;
+            overflow-y: auto;
+            overscroll-behavior: contain;
+        }
+
+        @media (max-width: 380px) {
+            #products-grid {
+                grid-template-columns: minmax(0, 1fr);
+                gap: 0.85rem;
+            }
+
+            #products-grid > article > div:first-child {
+                max-height: 230px;
+            }
+
+            #products-grid > article > div:nth-child(2) {
+                padding: 0.85rem;
+            }
+
+            #customers .customer-gallery-photo {
+                height: 145px;
+            }
+
+            #customers .customer-gallery-card.is-center .customer-gallery-photo {
+                height: 190px;
+            }
+
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-tech-primary selection:text-white relative text-tech-dark bg-white">
+
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="relative flex justify-center items-center">
+            <div class="absolute inset-0 bg-tech-primary w-24 h-24 rounded-full blur-2xl opacity-20 tech-pulse"></div>
+            <img src="358706496_580501707620788_246587828789165369_n.jpg" alt="Al-Ahram Group" class="w-20 h-20 object-contain relative z-10 animate-bounce rounded-lg border-2 border-tech-dark">
+        </div>
+        <h1 class="mt-6 text-3xl font-black text-tech-dark tracking-widest uppercase">
+            الأهرام <span class="text-tech-primary">جروب</span>
+        </h1>
+        <p class="mt-2 text-tech-muted font-bold tracking-wider">Al-Ahram Group</p>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="fixed w-full z-50 top-0 transition-all duration-300" id="navbar">
+        <div class="glass-panel border-b border-gray-200 transition-all" id="nav-container">
+            <div class="container mx-auto px-4 md:px-8 py-2 sm:py-3 flex justify-between items-center">
+                
+                <!-- Logo with Image -->
+                <a href="#" class="flex items-center gap-3 group z-50 relative">
+                    <div class="w-11 h-11 bg-white border-2 border-tech-dark rounded-lg flex items-center justify-center p-1 shadow-soft group-hover:border-tech-primary transition-all">
+                        <img src="358706496_580501707620788_246587828789165369_n.jpg" alt="Al-Ahram Group Logo" class="w-full h-full object-contain">
+                    </div>
+                    <div class="flex flex-col">
+                        <span data-brand-name class="text-xl md:text-2xl font-black tracking-wide text-tech-dark leading-tight">الأهرام <span class="text-tech-primary">جروب</span></span>
+                        <span class="text-[10px] font-bold text-tech-muted tracking-widest uppercase">Al-Ahram Group</span>
+                    </div>
+                </a>
+
+                <!-- Desktop Menu -->
+                <ul class="hidden lg:flex items-center gap-4 xl:gap-8 font-bold text-base text-tech-muted">
+                    <li><a href="#hero" class="hover:text-tech-primary transition-colors">الرئيسية</a></li>
+                    <li><a href="#products" class="hover:text-tech-primary transition-colors">الأجهزة</a></li>
+                    <li><a href="#customers" class="hover:text-tech-primary transition-colors">من المتجر</a></li>
+                    <li><a href="#about" class="hover:text-tech-primary transition-colors">من نحن</a></li>
+                    <li><a href="#branches" class="hover:text-tech-primary transition-colors">تواصل معنا</a></li>
+                </ul>
+
+                <!-- Actions -->
+                <div class="flex items-center gap-3 md:gap-4 z-50 relative">
+                    <button type="button" id="catalog-search-open" aria-label="إظهار البحث" aria-expanded="false" aria-controls="catalog-search-panel" title="إظهار البحث (Ctrl+K)" class="bg-tech-dark hover:bg-tech-primary w-10 h-10 md:w-12 md:h-12 flex items-center justify-center rounded-full shadow-soft hover:shadow-soft-hover transition-all text-white">
+                        <i class="fa-solid fa-magnifying-glass text-lg" aria-hidden="true"></i>
+                    </button>
+
+                    <!-- Mobile Toggle -->
+                    <button id="mobile-menu-btn" class="lg:hidden text-xl text-tech-dark w-10 h-10 flex flex-col justify-center items-center gap-1.5 transition-all focus:outline-none">
+                        <span class="block w-6 h-[2px] bg-tech-dark transition-all duration-300 rounded-full"></span>
+                        <span class="block w-6 h-[2px] bg-tech-dark transition-all duration-300 rounded-full"></span>
+                        <span class="block w-6 h-[2px] bg-tech-dark transition-all duration-300 rounded-full"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div id="catalog-search-panel" class="hidden z-[60] rounded-2xl border border-gray-200 p-3 shadow-xl glass-panel">
+            <div class="relative mx-auto max-w-3xl">
+                <i class="fa-solid fa-magnifying-glass absolute right-4 top-1/2 -translate-y-1/2 text-tech-primary" aria-hidden="true"></i>
+                <input id="product-search" type="search" dir="auto" autocomplete="off" aria-label="ابحث في كل مواصفات المنتجات" aria-describedby="product-search-status" placeholder="ابحث بالاسم، الموديل، المعالج، كارت الشاشة، RAM أو السعر" class="w-full rounded-xl border border-gray-200 bg-white py-2.5 sm:py-3 pr-11 pl-12 text-sm sm:text-base text-tech-dark shadow-sm outline-none transition focus:border-tech-primary focus:ring-4 focus:ring-blue-100">
+                <button id="product-search-clear" type="button" aria-label="مسح البحث" class="hidden absolute left-3 top-1/2 -translate-y-1/2 w-8 h-8 rounded-full text-tech-muted hover:bg-gray-100 hover:text-tech-dark">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="fixed inset-0 bg-white/95 backdrop-blur-xl z-40 flex flex-col justify-center items-center px-4 pt-16">
+        <div class="flex flex-col gap-5 text-center font-black text-xl sm:text-2xl w-full">
+            <a href="#hero" class="mobile-link text-tech-dark hover:text-tech-primary transition-colors">الرئيسية</a>
+            <a href="#products" class="mobile-link text-tech-dark hover:text-tech-primary transition-colors">الأجهزة والمنتجات</a>
+            <a href="#customers" class="mobile-link text-tech-dark hover:text-tech-primary transition-colors">من داخل المتجر</a>
+            <a href="#about" class="mobile-link text-tech-dark hover:text-tech-primary transition-colors">من نحن</a>
+            <a href="#faq" class="mobile-link text-tech-dark hover:text-tech-primary transition-colors">الأسئلة الشائعة</a>
+            <a href="#branches" class="mobile-link text-tech-dark hover:text-tech-primary transition-colors">العنوان والتواصل</a>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative min-h-0 lg:min-h-[100vh] flex items-center justify-center pt-24 pb-8 lg:pt-28 lg:pb-16 overflow-hidden">
+        <div class="container mx-auto px-4 md:px-8 relative z-10 grid lg:grid-cols-2 gap-4 sm:gap-8 lg:gap-12 items-center">
+            
+            <!-- Hero Text -->
+            <div class="text-center lg:text-right space-y-4 lg:space-y-6 reveal relative z-20 order-2 lg:order-1 mt-0">
+                <div data-announcement class="inline-flex items-center justify-center gap-2 bg-blue-50 border border-blue-100 rounded-full px-3 sm:px-4 py-1.5 font-bold text-xs sm:text-sm text-tech-primary">
+                    <span class="w-2 h-2 bg-tech-primary rounded-full animate-pulse"></span>
+                    أكثر من 77 موديلًا جديدًا مختارًا بعناية | 2026–2027
+                </div>
+                
+                <h1 class="fluid-h1 font-black text-tech-dark">
+                    ارتقِ بمستوى <br>
+                    <span class="text-gradient from-tech-dark to-tech-primary">أدائك وإبداعك</span> <br>
+                    مع Al-Ahram Group.
+                </h1>
+                
+                <p class="fluid-p font-semibold text-tech-muted max-w-lg mx-auto lg:mx-0 leading-relaxed">
+                    الأهرام جروب متخصصون في بيع اللابتوبات الجديدة بضمان وجودة عالية وبأفضل سعر. اختر من بين أكثر من 77 موديلًا متنوعًا.
+                </p>
+                
+                <div class="grid grid-cols-3 gap-2 pt-2 sm:gap-3 sm:pt-4" aria-label="معلومات سريعة عن الأهرام جروب">
+                    <div class="rounded-xl border border-gray-200 bg-white px-2 py-2.5 text-center shadow-sm sm:px-4 sm:py-3">
+                        <strong class="block text-lg font-black text-tech-primary sm:text-2xl" dir="ltr">15+</strong>
+                        <span class="text-[10px] font-bold text-tech-muted sm:text-xs">سنة خبرة</span>
+                    </div>
+                    <div class="rounded-xl border border-gray-200 bg-white px-2 py-2.5 text-center shadow-sm sm:px-4 sm:py-3">
+                        <strong class="block text-lg font-black text-tech-primary sm:text-2xl">3</strong>
+                        <span class="text-[10px] font-bold text-tech-muted sm:text-xs">ماركات رئيسية</span>
+                    </div>
+                    <div class="rounded-xl border border-gray-200 bg-white px-2 py-2.5 text-center shadow-sm sm:px-4 sm:py-3">
+                        <strong class="block text-lg font-black text-tech-primary sm:text-2xl" dir="ltr">12–10</strong>
+                        <span class="text-[10px] font-bold text-tech-muted sm:text-xs">ظهرًا إلى مساءً</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-row justify-center lg:justify-start gap-2 sm:gap-4 pt-1 sm:pt-2">
+                    <a href="#products" class="flex-1 sm:flex-none bg-tech-dark hover:bg-tech-primary text-white rounded-lg text-[13px] sm:text-lg font-bold py-3 sm:py-3.5 px-2 sm:px-8 shadow-soft hover:shadow-soft-hover transition-all flex justify-center items-center gap-2 sm:gap-3 group">
+                        استكشف الأجهزة <i class="fa-solid fa-arrow-left group-hover:-translate-x-1 transition-transform"></i>
+                    </a>
+                    <a href="#about" class="flex-1 sm:flex-none rounded-lg border border-gray-200 bg-white px-2 py-3 text-[13px] font-bold text-tech-dark shadow-sm transition-colors hover:border-tech-primary hover:text-tech-primary sm:px-8 sm:py-3.5 sm:text-lg flex justify-center items-center gap-2 sm:gap-3">
+                        عن المتجر
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Image -->
+            <div class="relative reveal h-[190px] sm:h-[450px] lg:h-[600px] flex justify-center items-center order-1 lg:order-2">
+                <div class="relative z-20 float-slow w-full max-w-[230px] sm:max-w-[450px] lg:max-w-[550px]">
+                    <img id="hero-product-image" src="hero-asus-tuf-a16.png" alt="لابتوب ASUS TUF" class="w-full drop-shadow-2xl transition-opacity duration-500">
+                </div>
+
+                <div class="hidden sm:block absolute top-10 right-5 z-30 float-fast bg-white/90 backdrop-blur p-3 rounded-xl shadow-soft border border-gray-200 text-tech-primary">
+                    <i class="fa-solid fa-microchip text-3xl"></i>
+                </div>
+                
+                <div class="absolute bottom-20 right-10 z-30 float-slow bg-white/90 backdrop-blur px-4 py-2 rounded-lg font-black text-sm text-tech-dark border border-gray-200 shadow-soft">
+                    <span class="text-tech-primary">77+</span> موديل
+                </div>
+
+                <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[250px] h-[250px] md:w-[400px] md:h-[400px] border border-blue-200 rounded-full border-dashed animate-[spin_20s_linear_infinite] -z-10"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section id="products" class="scroll-mt-32 sm:scroll-mt-36 py-10 md:py-24 relative z-10">
+        <div class="container mx-auto px-4 md:px-8 relative z-20">
+            <div class="text-center mb-7 md:mb-12 reveal">
+                <span class="text-tech-primary font-bold tracking-wider text-sm uppercase mb-2 block">منتجات الأهرام جروب</span>
+                <h2 class="fluid-h2 font-black text-tech-dark">اختار لابتوبك <span class="text-tech-primary">بثقة</span></h2>
+                <p class="text-tech-muted mt-3 font-bold">مواصفات واضحة، سعر معلن، ومدة ضمان موضحة لكل منتج</p>
+            </div>
+
+            <div class="mb-6 md:mb-8">
+                <div class="mb-3 flex justify-start">
+                    <button id="filters-toggle" type="button" aria-expanded="false" aria-controls="product-filters-panel" class="inline-flex min-h-11 items-center gap-2 rounded-xl border border-gray-200 bg-white px-4 text-sm font-black text-tech-dark shadow-sm transition hover:border-tech-primary hover:text-tech-primary">
+                        <i class="fa-solid fa-sliders" aria-hidden="true"></i>
+                        <span>الفلاتر</span>
+                    </button>
+                </div>
+                <div id="product-filters-panel" class="hidden rounded-2xl border border-blue-100 bg-white p-3 shadow-soft sm:p-4">
+                    <div class="mb-3 flex items-center justify-between gap-2">
+                        <div>
+                            <span class="block text-sm sm:text-base font-black text-tech-dark">تصفية حسب الشركة</span>
+                            <span class="text-xs sm:text-sm text-tech-muted">اختر الماركة والمواصفات</span>
+                        </div>
+                        <button id="filters-close" type="button" class="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-lg px-2 text-xs font-bold text-tech-muted transition hover:bg-gray-100 hover:text-tech-dark" aria-label="إغلاق الفلاتر">
+                            <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                            إغلاق
+                        </button>
+                    </div>
+                    <div class="grid grid-cols-4 gap-2" role="group" aria-label="تصفية حسب الشركة">
+                        <button type="button" data-brand-filter="all" aria-pressed="true" class="brand-filter-button flex min-h-12 flex-col items-center justify-center gap-0.5 rounded-xl border-2 border-tech-primary bg-tech-primary px-2 py-2 text-xs sm:text-sm font-black text-white shadow-sm transition-colors">
+                            <span>الكل</span><span data-brand-count class="text-[10px] sm:text-xs font-semibold opacity-80">22</span>
+                        </button>
+                        <button type="button" data-brand-filter="lenovo" aria-pressed="false" class="brand-filter-button flex min-h-12 flex-col items-center justify-center gap-0.5 rounded-xl border-2 border-gray-200 bg-gray-50 px-2 py-2 text-xs sm:text-sm font-black text-tech-dark transition-colors hover:border-tech-primary">
+                            <span>Lenovo</span><span data-brand-count class="text-[10px] sm:text-xs font-semibold text-tech-muted">8</span>
+                        </button>
+                        <button type="button" data-brand-filter="asus" aria-pressed="false" class="brand-filter-button flex min-h-12 flex-col items-center justify-center gap-0.5 rounded-xl border-2 border-gray-200 bg-gray-50 px-2 py-2 text-xs sm:text-sm font-black text-tech-dark transition-colors hover:border-tech-primary">
+                            <span>ASUS</span><span data-brand-count class="text-[10px] sm:text-xs font-semibold text-tech-muted">13</span>
+                        </button>
+                        <button type="button" data-brand-filter="hp" aria-pressed="false" class="brand-filter-button flex min-h-12 flex-col items-center justify-center gap-0.5 rounded-xl border-2 border-gray-200 bg-gray-50 px-2 py-2 text-xs sm:text-sm font-black text-tech-dark transition-colors hover:border-tech-primary">
+                            <span>HP</span><span data-brand-count class="text-[10px] sm:text-xs font-semibold text-tech-muted">1</span>
+                        </button>
+                    </div>
+                    <div class="mt-3 flex flex-wrap items-center gap-2" role="group" aria-label="تصفية سريعة حسب الاستخدام">
+                        <span class="ml-1 text-[11px] font-black text-tech-muted">تصفّح حسب الاستخدام:</span>
+                        <button type="button" data-quick-use="gaming" aria-pressed="false" class="quick-use-button rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-bold text-tech-dark transition-colors hover:border-tech-primary hover:text-tech-primary">
+                            <i class="fa-solid fa-gamepad ml-1 text-tech-primary" aria-hidden="true"></i> ألعاب
+                        </button>
+                        <button type="button" data-quick-use="creator" aria-pressed="false" class="quick-use-button rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-bold text-tech-dark transition-colors hover:border-tech-primary hover:text-tech-primary">
+                            <i class="fa-solid fa-pen-ruler ml-1 text-tech-primary" aria-hidden="true"></i> تصميم ومونتاج
+                        </button>
+                        <button type="button" data-quick-use="all" aria-pressed="true" class="quick-use-button rounded-full border border-tech-primary bg-blue-50 px-3 py-1.5 text-xs font-bold text-tech-primary transition-colors">
+                            كل الاستخدامات
+                        </button>
+                        <button id="favorites-toggle" type="button" aria-pressed="false" class="mr-auto inline-flex items-center gap-1.5 rounded-full border border-gray-200 bg-white px-3 py-1.5 text-xs font-bold text-tech-dark transition-colors hover:border-rose-300 hover:text-rose-600">
+                            <i class="fa-regular fa-heart text-rose-500" aria-hidden="true"></i>
+                            <span>المفضلة</span>
+                            <span id="favorites-count" class="rounded-full bg-gray-100 px-1.5 py-0.5 text-[10px] tabular-nums">0</span>
+                        </button>
+                    </div>
+                    <div class="mt-3 grid grid-cols-2 sm:grid-cols-4 gap-2">
+                        <label class="text-xs font-bold text-tech-muted">المعالج
+                            <select id="processor-filter" class="mt-1 w-full rounded-lg border border-gray-200 bg-white px-2 py-2 text-xs sm:text-sm text-tech-dark outline-none focus:border-tech-primary">
+                                <option value="all">كل المعالجات</option>
+                                <option value="intel">Intel</option>
+                                <option value="amd">AMD</option>
+                            </select>
+                        </label>
+                        <label class="text-xs font-bold text-tech-muted">كارت الشاشة
+                            <select id="gpu-filter" class="mt-1 w-full rounded-lg border border-gray-200 bg-white px-2 py-2 text-xs sm:text-sm text-tech-dark outline-none focus:border-tech-primary">
+                                <option value="all">كل الأنواع</option>
+                            </select>
+                        </label>
+                        <label class="text-xs font-bold text-tech-muted">الذاكرة RAM
+                            <select id="ram-filter" class="mt-1 w-full rounded-lg border border-gray-200 bg-white px-2 py-2 text-xs sm:text-sm text-tech-dark outline-none focus:border-tech-primary">
+                                <option value="all">كل السعات</option>
+                            </select>
+                        </label>
+                        <label class="text-xs font-bold text-tech-muted">الاستخدام
+                            <select id="use-filter" class="mt-1 w-full rounded-lg border border-gray-200 bg-white px-2 py-2 text-xs sm:text-sm text-tech-dark outline-none focus:border-tech-primary">
+                                <option value="all">كل الاستخدامات</option>
+                                <option value="gaming">ألعاب</option>
+                                <option value="creator">تصميم ومونتاج</option>
+                                <option value="daily">دراسة واستخدام يومي</option>
+                            </select>
+                        </label>
+                    </div>
+                    <label class="budget-filter mt-3 block border border-gray-100 text-xs font-bold text-tech-muted" for="budget-filter">
+                        <span class="flex flex-wrap items-center justify-between gap-2">
+                            <span>الحد الأقصى للميزانية</span>
+                            <output id="budget-filter-value" class="font-black text-tech-primary" for="budget-filter"></output>
+                        </span>
+                        <input id="budget-filter" type="range" class="mt-2 w-full cursor-pointer accent-tech-primary" aria-label="الحد الأقصى لسعر الجهاز">
+                        <span class="mt-1 flex justify-between text-[10px] font-semibold text-gray-400">
+                            <span id="budget-filter-min"></span>
+                            <span>حرّك المؤشر لتحديد ميزانيتك</span>
+                            <span id="budget-filter-max"></span>
+                        </span>
+                    </label>
+                    <div class="mt-3 flex flex-wrap items-end justify-between gap-3">
+                        <button id="filters-reset" type="button" class="text-xs font-bold text-tech-primary hover:underline">مسح كل الفلاتر والبحث</button>
+                        <label class="flex items-center gap-2 text-xs font-bold text-tech-muted">
+                            ترتيب النتائج
+                            <select id="sort-order" class="rounded-lg border border-gray-200 bg-white px-2.5 py-2 text-xs sm:text-sm text-tech-dark outline-none focus:border-tech-primary">
+                                <option value="featured">الأبرز</option>
+                                <option value="price-ascending">السعر: من الأقل</option>
+                                <option value="price-descending">السعر: من الأعلى</option>
+                            </select>
+                        </label>
+                    </div>
+                </div>
+                <p id="product-search-status" class="sr-only" aria-live="polite"></p>
+                <p id="compare-feedback" class="mt-1 min-h-5 text-xs font-bold text-tech-primary" aria-live="polite"></p>
+            </div>
+
+            <div id="products-grid" class="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3 sm:gap-4 lg:gap-6"></div>
+            <p id="product-search-empty" class="hidden text-center rounded-xl border border-gray-200 bg-white px-4 py-8 text-sm sm:text-base font-bold text-tech-muted" role="status">لا توجد منتجات مطابقة. جرّب اسمًا أو مواصفة أو رقم موديل آخر.</p>
+        </div>
+    </section>
+
+    <section id="customers" class="py-10 md:py-16 scroll-mt-24 overflow-hidden">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="mb-7 text-center md:mb-9">
+                <span class="inline-flex items-center gap-2 rounded-full border border-blue-100 bg-blue-50 px-3 py-1 text-xs font-black text-tech-primary">
+                    <i class="fa-solid fa-camera" aria-hidden="true"></i>
+                    من داخل المتجر
+                </span>
+                <h2 class="mt-3 text-2xl font-black text-tech-dark sm:text-3xl">لحظات من الأهرام جروب</h2>
+                <p class="mt-2 text-sm text-tech-muted">صور حقيقية من زيارات عملائنا وتسليم الأجهزة</p>
+            </div>
+
+            <div class="customer-gallery max-w-5xl mx-auto" aria-label="ألبوم صور العملاء">
+                <figure class="customer-gallery-card" data-gallery-slot="left">
+                    <img class="customer-gallery-photo" src="عملاء/900923175_2256979168194814_6138985587438384615_n.jpg" alt="عميل يستلم جهاز ASUS من متجر الأهرام جروب" loading="eager">
+                    <figcaption class="px-2 py-2.5 text-center text-[11px] font-bold text-tech-dark sm:px-3 sm:py-3 sm:text-sm">أجهزة من تشكيلتنا</figcaption>
+                </figure>
+                <figure class="customer-gallery-card is-center" data-gallery-slot="center" aria-current="true">
+                    <img class="customer-gallery-photo" src="عملاء/864991618_2230952860784501_8556437411000995325_n.jpg" alt="عميل يستلم جهازه من متجر الأهرام جروب" loading="eager">
+                    <figcaption class="px-3 py-3 text-center text-sm font-black text-tech-dark sm:text-base">من أجواء المتجر</figcaption>
+                </figure>
+                <figure class="customer-gallery-card" data-gallery-slot="right">
+                    <img class="customer-gallery-photo" src="عملاء/867446016_2344596143031200_2531509795203469184_n.jpg" alt="عميل مع جهاز Lenovo داخل المتجر" loading="eager">
+                    <figcaption class="px-2 py-2.5 text-center text-[11px] font-bold text-tech-dark sm:px-3 sm:py-3 sm:text-sm">اختيار الجهاز المناسب</figcaption>
+                </figure>
+            </div>
+
+            <div class="mt-6 flex items-center justify-center gap-3 sm:gap-5" aria-label="عناصر التحكم في ألبوم الصور">
+                <button type="button" id="customer-gallery-prev" class="flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 bg-white text-sm text-tech-dark transition hover:border-tech-primary hover:text-tech-primary sm:h-10 sm:w-10" aria-label="الصورة السابقة">
+                    <i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
+                </button>
+                <div class="flex items-center gap-1.5 sm:gap-2" role="group" aria-label="اختيار صورة وسطى">
+                    <button type="button" class="customer-gallery-dot h-2.5 w-2.5 rounded-full bg-gray-300 transition-all" data-gallery-center="0" aria-label="عرض الصورة 1 في الوسط"></button>
+                    <button type="button" class="customer-gallery-dot h-2.5 w-2.5 rounded-full bg-gray-300 transition-all" data-gallery-center="1" aria-label="عرض الصورة 2 في الوسط"></button>
+                    <button type="button" class="customer-gallery-dot h-2.5 w-2.5 rounded-full bg-gray-300 transition-all" data-gallery-center="2" aria-label="عرض الصورة 3 في الوسط"></button>
+                    <button type="button" class="customer-gallery-dot h-2.5 w-2.5 rounded-full bg-gray-300 transition-all" data-gallery-center="3" aria-label="عرض الصورة 4 في الوسط"></button>
+                    <button type="button" class="customer-gallery-dot h-2.5 w-2.5 rounded-full bg-gray-300 transition-all" data-gallery-center="4" aria-label="عرض الصورة 5 في الوسط"></button>
+                    <button type="button" class="customer-gallery-dot h-2.5 w-2.5 rounded-full bg-gray-300 transition-all" data-gallery-center="5" aria-label="عرض الصورة 6 في الوسط"></button>
+                </div>
+                <span id="customer-gallery-count" class="min-w-10 text-center text-xs font-black tabular-nums text-tech-muted" aria-live="polite" dir="ltr">01 / 06</span>
+                <button type="button" id="customer-gallery-next" class="flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 bg-white text-sm text-tech-dark transition hover:border-tech-primary hover:text-tech-primary sm:h-10 sm:w-10" aria-label="الصورة التالية">
+                    <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="scroll-mt-24 border-y border-gray-100 bg-gray-50/70 py-10 md:py-14">
+        <div class="container mx-auto px-4 md:px-8">
+            <div class="mx-auto max-w-4xl rounded-2xl border border-gray-200 bg-white p-5 shadow-sm sm:p-8 md:p-10">
+                <span class="text-sm font-black text-tech-primary">عن الأهرام جروب</span>
+                <h2 class="mt-2 text-2xl font-black leading-snug text-tech-dark sm:text-3xl">خبرة في أجهزة اللابتوب منذ أكثر من 15 عامًا</h2>
+                <p class="mt-4 max-w-3xl text-sm leading-7 text-tech-muted sm:text-base sm:leading-8">
+                    الأهرام جروب متجر متخصص في بيع أجهزة اللابتوب الجديدة في المنصورة. يضم الكتالوج أجهزة من Lenovo وASUS وHP، مع عرض المواصفات والأسعار ومدة الضمان المعلنة لكل جهاز لمساعدتك على المقارنة.
+                </p>
+                <div class="mt-5 flex flex-wrap items-center gap-2" aria-label="الماركات المتاحة">
+                    <span class="rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-bold text-tech-dark">Lenovo</span>
+                    <span class="rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-bold text-tech-dark">ASUS</span>
+                    <span class="rounded-full border border-gray-200 bg-gray-50 px-3 py-1 text-xs font-bold text-tech-dark">HP</span>
+                </div>
+                <a href="#products" class="mt-6 inline-flex min-h-11 items-center gap-2 rounded-lg bg-tech-dark px-5 py-2.5 text-sm font-bold text-white transition-colors hover:bg-tech-primary">
+                    تصفح الأجهزة <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="faq" class="py-10 md:py-16 bg-white/75 border-y border-gray-100 scroll-mt-24">
+        <div class="container mx-auto px-4 md:px-8 max-w-4xl">
+            <div class="text-center mb-6">
+                <span class="text-tech-primary text-sm font-black">معلومات سريعة</span>
+                <h2 class="text-2xl sm:text-3xl font-black text-tech-dark mt-2">الأسئلة الشائعة</h2>
+            </div>
+            <div class="space-y-3">
+                <details class="rounded-xl border border-gray-200 bg-white p-4">
+                    <summary class="cursor-pointer font-black text-sm sm:text-base">هل كل الأجهزة المعروضة متاحة حاليًا؟</summary>
+                    <p class="mt-3 text-sm text-tech-muted leading-6">الأسعار والتوفر قد يتغيران؛ تواصل معنا أو زر المتجر للتأكد من الجهاز قبل الزيارة.</p>
+                </details>
+                <details class="rounded-xl border border-gray-200 bg-white p-4">
+                    <summary class="cursor-pointer font-black text-sm sm:text-base">هل أجد موديلات غير الموجودة في الكتالوج؟</summary>
+                    <p class="mt-3 text-sm text-tech-muted leading-6">الكتالوج يعرض عينة من الأجهزة؛ اسألنا عن الموديلات الأخرى المتاحة.</p>
+                </details>
+                <details class="rounded-xl border border-gray-200 bg-white p-4">
+                    <summary class="cursor-pointer font-black text-sm sm:text-base">ما مواعيد زيارة المتجر؟</summary>
+                    <p class="mt-3 text-sm text-tech-muted leading-6">يوميًا من الساعة 12 ظهرًا حتى 10 مساءً.</p>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="branches" class="bg-tech-dark pt-16 pb-8 border-t-4 border-tech-primary mt-20 relative overflow-hidden">
+        <div class="container mx-auto px-4 md:px-8 relative z-10">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12 border-b border-gray-800 pb-12">
+                
+                <!-- Brand Info with Logo -->
+                <div class="space-y-4">
+                    <a href="#" class="flex items-center gap-3">
+                        <div class="w-10 h-10 bg-white rounded-lg flex items-center justify-center p-1 border border-gray-700">
+                            <img src="358706496_580501707620788_246587828789165369_n.jpg" alt="Al-Ahram Group Logo" class="w-full h-full object-contain">
+                        </div>
+                        <div class="flex flex-col">
+                            <span class="text-xl font-black text-white">الأهرام <span class="text-tech-primary">جروب</span></span>
+                            <span class="text-[9px] font-bold text-gray-400 tracking-widest uppercase">Al-Ahram Group</span>
+                        </div>
+                    </a>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        الأهرام جروب متخصصون في بيع اللابتوبات الجديدة، بخبرة أكثر من 15 سنة. يعرض الموقع عينة من الأجهزة، ونسعد بمساعدتك في معرفة الموديلات المتاحة.
+                    </p>
+                    <div class="flex gap-3 pt-2">
+                        <a href="https://www.facebook.com/alahramgroupeg1" target="_blank" rel="noopener noreferrer" aria-label="صفحة الأهرام جروب على فيسبوك" class="w-10 h-10 rounded-full bg-tech-darker border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-tech-primary hover:bg-tech-primary transition-all"><i class="fa-brands fa-facebook-f"></i></a>
+                    </div>
+                </div>
+
+                <!-- Links -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">روابط سريعة</h4>
+                    <ul class="space-y-2 text-sm text-gray-400">
+                        <li><a href="tel:+201280001266" dir="ltr" class="hover:text-tech-primary transition-colors">012 80001266</a></li>
+                        <li><a href="mailto:alahramgroupeg1@gmail.com" class="hover:text-tech-primary transition-colors">alahramgroupeg1@gmail.com</a></li>
+                        <li><a href="#about" class="hover:text-tech-primary transition-colors">من نحن</a></li>
+                        <li><a href="#faq" class="hover:text-tech-primary transition-colors">الأسئلة الشائعة</a></li>
+                    </ul>
+                </div>
+
+                <!-- Locations -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">عنواننا</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-location-dot mt-1 text-tech-primary"></i>
+                            <span>
+                                المنصورة: 9 شارع النصر، متفرع من شارع الجلاء، خلف مطعم البغل.
+                                <a href="https://www.google.com/maps/search/?api=1&amp;query=9+شارع+النصر+متفرع+من+شارع+الجلاء+خلف+مطعم+البغل+المنصورة+مصر" target="_blank" rel="noopener noreferrer" class="block text-tech-primary hover:underline mt-2">ابحث عن العنوان على خرائط Google</a>
+                            </span>
+                        </li>
+                        <li class="flex items-start gap-2">
+                            <i class="fa-solid fa-clock mt-1 text-tech-primary"></i>
+                            <span>مواعيد العمل: يوميًا من 12 ظهرًا حتى 10 مساءً.</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-bold text-white mb-4">تواصل معنا</h4>
+                    <div class="bg-tech-darker border border-gray-800 rounded-xl p-5 text-center shadow-lg">
+                        <p class="text-gray-400 text-xs mb-2">للمبيعات والاستفسارات</p>
+                        <a href="tel:+201280001266" class="text-2xl font-black text-tech-primary tracking-widest" dir="ltr">012 80001266</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bottom Footer -->
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 text-center md:text-right text-gray-500 text-sm font-semibold">
+                <p>
+                    © <span id="year"></span> Al-Ahram Group | الأهرام جروب. جميع الحقوق محفوظة.
+                </p>
+                <p>Designed for Gamers & Creators ⚡</p>
+            </div>
+        </div>
+    </footer>
+
+    <div id="mobile-contact-bar" class="fixed inset-x-0 bottom-0 z-[70] grid grid-cols-1 gap-2 border-t border-gray-200 bg-white/95 px-3 pt-2 shadow-[0_-8px_24px_-18px_rgba(9,9,11,0.5)] backdrop-blur-md md:hidden">
+        <a href="tel:+201280001266" class="flex items-center justify-center gap-2 rounded-xl bg-tech-dark px-3 text-sm font-black text-white transition-colors hover:bg-tech-primary">
+            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+            <span>اتصل بنا: 012 80001266</span>
+        </a>
+    </div>
+
+    <!-- Product Details Modal -->
+    <div id="product-details-modal" class="fixed inset-0 z-[100000] hidden items-center justify-center bg-tech-dark/70 backdrop-blur-sm p-3 sm:p-6" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="product-details-title">
+        <div class="relative w-full max-w-3xl max-h-[92vh] overflow-y-auto bg-white border border-gray-200 shadow-2xl rounded-2xl text-tech-dark">
+            <button type="button" data-close="product-details-modal" class="absolute top-3 left-3 z-10 w-10 h-10 rounded-full bg-white border border-gray-200 flex items-center justify-center text-gray-500 hover:text-white hover:bg-tech-danger transition-colors shadow-sm" aria-label="إغلاق تفاصيل المنتج">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="grid md:grid-cols-2">
+                <div class="bg-gray-50 p-8 flex items-center justify-center min-h-[260px]">
+                    <img id="product-details-image" src="hp-250-g10-product.jpg" alt="" class="w-full max-w-sm max-h-[340px] object-contain">
+                </div>
+                <div class="p-6 sm:p-8">
+                    <span id="product-details-brand" class="text-sm text-tech-primary font-black uppercase tracking-wider"></span>
+                    <h2 id="product-details-title" class="text-2xl font-black mt-1"></h2>
+                    <p id="product-details-model" class="text-xs text-tech-muted font-semibold mt-2" dir="ltr"></p>
+                    <ul id="product-details-specs" class="space-y-3 mt-6 text-sm text-tech-muted font-semibold"></ul>
+                    <div class="mt-6 pt-5 border-t border-gray-100 flex items-end justify-between gap-4">
+                        <div>
+                            <p class="text-xs text-tech-muted font-bold">السعر المعلن</p>
+                            <p id="product-details-price" class="text-2xl font-black mt-1"></p>
+                        </div>
+                        <span class="text-xs font-bold text-tech-muted"><i class="fa-solid fa-shield-halved text-tech-primary ml-1"></i> <span id="product-details-warranty"></span></span>
+                    </div>
+                    <p class="text-xs text-tech-muted mt-5">السعر والتوفر قابلان للتغيير.</p>
+                    <a id="product-whatsapp-link" href="https://wa.me/201280001266" target="_blank" rel="noopener noreferrer" class="mt-4 flex w-full items-center justify-center gap-2 rounded-xl bg-green-600 px-4 py-3 text-sm font-black text-white transition-colors hover:bg-green-700">
+                        <i class="fa-brands fa-whatsapp text-lg" aria-hidden="true"></i>
+                        اسأل عن هذا الجهاز على واتساب
+                    </a>
+                    <div class="mt-4 border-t border-gray-100 pt-4">
+                        <button id="product-share-button" type="button" class="rounded-lg border border-gray-200 px-4 py-2 text-sm font-bold text-tech-primary hover:border-tech-primary transition-colors">
+                            <i class="fa-solid fa-share-nodes ml-1" aria-hidden="true"></i> مشاركة رابط المنتج
+                        </button>
+                        <p id="product-share-status" class="mt-2 text-xs text-tech-muted" aria-live="polite"></p>
+                        <input id="product-share-url" class="hidden mt-2 w-full rounded-lg border border-gray-200 bg-gray-50 px-3 py-2 text-xs text-tech-muted" readonly aria-label="رابط المنتج للمشاركة" dir="ltr">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="compare-dock" class="hidden rounded-2xl border border-gray-200 bg-white/95 p-3 shadow-2xl backdrop-blur-md">
+        <div class="flex items-center justify-between gap-3">
+            <p id="compare-dock-count" class="text-sm font-black text-tech-dark"></p>
+            <div class="flex shrink-0 items-center gap-2">
+                <button id="compare-open" type="button" class="rounded-lg bg-tech-primary px-4 py-2 text-xs font-black text-white transition-colors hover:bg-blue-800">قارن الأجهزة</button>
+                <button id="compare-clear" type="button" class="rounded-lg border border-gray-200 px-3 py-2 text-xs font-bold text-tech-muted transition-colors hover:border-tech-danger hover:text-tech-danger">مسح</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="compare-modal" class="fixed inset-0 z-[100001] hidden items-center justify-center bg-tech-dark/70 p-3 backdrop-blur-sm sm:p-6" role="dialog" aria-modal="true" aria-hidden="true" aria-labelledby="compare-modal-title">
+        <div class="w-full max-w-5xl overflow-hidden rounded-2xl border border-gray-200 bg-white text-tech-dark shadow-2xl">
+            <div class="flex items-center justify-between gap-3 border-b border-gray-100 p-4 sm:p-5">
+                <div>
+                    <h2 id="compare-modal-title" class="text-lg font-black sm:text-xl">مقارنة الأجهزة</h2>
+                    <p class="mt-1 text-xs font-semibold text-tech-muted">قارن السعر والمواصفات والضمان جنبًا إلى جنب</p>
+                </div>
+                <button type="button" data-close="compare-modal" class="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-gray-200 text-tech-muted transition-colors hover:border-tech-danger hover:text-tech-danger" aria-label="إغلاق مقارنة الأجهزة">
+                    <i class="fa-solid fa-xmark" aria-hidden="true"></i>
+                </button>
+            </div>
+            <div id="compare-products" class="gap-3 p-3 sm:p-5" aria-label="تفاصيل الأجهزة للمقارنة"></div>
+            <p class="border-t border-gray-100 px-4 py-3 text-xs font-semibold text-tech-muted sm:px-5">السعر والتوفر قابلان للتغيير. للاستفسار عن جهاز محدد، افتح تفاصيله.</p>
+        </div>
+    </div>
+
+    <!-- Core JavaScript -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        const heroProductImage = document.getElementById('hero-product-image');
+        const heroProductImages = [
+            { src: 'hero-asus-tuf-a16.png', alt: 'لابتوب ASUS TUF A16' },
+            { src: 'hero-asus-rog-strix-g16.png', alt: 'لابتوب ASUS ROG Strix G16' },
+            { src: 'hero-lenovo-loq-essential.png', alt: 'لابتوب Lenovo LOQ' }
+        ];
+        let heroProductImageIndex = 0;
+        window.setInterval(() => {
+            heroProductImage.classList.add('opacity-0');
+            window.setTimeout(() => {
+                heroProductImageIndex = (heroProductImageIndex + 1) % heroProductImages.length;
+                heroProductImage.src = heroProductImages[heroProductImageIndex].src;
+                heroProductImage.alt = heroProductImages[heroProductImageIndex].alt;
+                heroProductImage.onload = () => heroProductImage.classList.remove('opacity-0');
+            }, 500);
+        }, 5000);
+
+        const customerGalleryPhotos = [
+            { src: 'عملاء/864991618_2230952860784501_8556437411000995325_n.jpg', alt: 'عميل يستلم جهازه من متجر الأهرام جروب', caption: 'من أجواء المتجر' },
+            { src: 'عملاء/867446016_2344596143031200_2531509795203469184_n.jpg', alt: 'عميل مع جهاز Lenovo داخل المتجر', caption: 'اختيار الجهاز المناسب' },
+            { src: 'عملاء/897811925_3578625575673162_1176766214705382590_n.jpg', alt: 'عملاء داخل متجر الأهرام جروب', caption: 'من زيارات عملائنا' },
+            { src: 'عملاء/899648663_1832030487987391_8146461926000619183_n.jpg', alt: 'عملاء يستلمون أجهزة لابتوب من المتجر', caption: 'تسليم الأجهزة' },
+            { src: 'عملاء/900856894_969162409175429_2369995316534047736_n.jpg', alt: 'عميلان داخل متجر الأهرام جروب', caption: 'من داخل الفرع' },
+            { src: 'عملاء/900923175_2256979168194814_6138985587438384615_n.jpg', alt: 'عميل يستلم جهاز ASUS من متجر الأهرام جروب', caption: 'أجهزة من تشكيلتنا' }
+        ];
+        const customerGallery = document.querySelector('.customer-gallery');
+        if (customerGallery) {
+            const galleryCards = [...customerGallery.querySelectorAll('[data-gallery-slot]')];
+            const galleryDots = [...document.querySelectorAll('.customer-gallery-dot')];
+            let customerGalleryCenter = 0;
+            let customerGalleryTimeouts = [];
+            const galleryCount = document.getElementById('customer-gallery-count');
+
+            const showCustomerGalleryCenter = (center, animate = true) => {
+                customerGalleryCenter = (center + customerGalleryPhotos.length) % customerGalleryPhotos.length;
+                customerGalleryTimeouts.forEach(window.clearTimeout);
+                customerGalleryTimeouts = [];
+
+                galleryCards.forEach((card, position) => {
+                    card.classList.remove('is-entering');
+                    const image = card.querySelector('img');
+                    const caption = card.querySelector('figcaption');
+                    const imageIndex = (customerGalleryCenter + position - 1 + customerGalleryPhotos.length) % customerGalleryPhotos.length;
+                    const photo = customerGalleryPhotos[imageIndex];
+                    image.src = photo.src;
+                    image.alt = photo.alt;
+                    caption.textContent = photo.caption;
+
+                    if (animate) {
+                        card.style.animationDelay = `${position * 90}ms`;
+                        void card.offsetWidth;
+                        card.classList.add('is-entering');
+                        customerGalleryTimeouts.push(window.setTimeout(() => {
+                            card.classList.remove('is-entering');
+                            card.style.animationDelay = '';
+                        }, 800));
+                    }
+
+                    card.classList.toggle('is-center', position === 1);
+                    if (position === 1) card.setAttribute('aria-current', 'true');
+                    else card.removeAttribute('aria-current');
+                });
+
+                galleryDots.forEach((dot, index) => {
+                    const isActive = index === customerGalleryCenter;
+                    dot.classList.toggle('bg-tech-primary', isActive);
+                    dot.classList.toggle('bg-gray-300', !isActive);
+                    dot.classList.toggle('w-6', isActive);
+                    dot.classList.toggle('w-2.5', !isActive);
+                    dot.setAttribute('aria-pressed', String(isActive));
+                });
+                galleryCount.textContent = `${String(customerGalleryCenter + 1).padStart(2, '0')} / ${String(customerGalleryPhotos.length).padStart(2, '0')}`;
+            };
+
+            document.getElementById('customer-gallery-prev').addEventListener('click', () => {
+                showCustomerGalleryCenter(customerGalleryCenter - 1);
+            });
+            document.getElementById('customer-gallery-next').addEventListener('click', () => {
+                showCustomerGalleryCenter(customerGalleryCenter + 1);
+            });
+            galleryDots.forEach(dot => {
+                dot.addEventListener('click', () => showCustomerGalleryCenter(Number(dot.dataset.galleryCenter)));
+            });
+            window.setInterval(() => showCustomerGalleryCenter(customerGalleryCenter + 1), 5000);
+        }
+
+        window.addEventListener('load', () => {
+            const preloader = document.getElementById('preloader');
+            setTimeout(() => {
+                preloader.classList.add('loader-hide');
+                setTimeout(() => {
+                    preloader.style.display = 'none';
+                    triggerReveals();
+                }, 800);
+            }, 800);
+        });
+
+        const navbar = document.getElementById('navbar');
+        const navContainer = document.getElementById('nav-container');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                navContainer.classList.add('py-2', 'bg-white/90', 'backdrop-blur-md', 'shadow-sm');
+                navContainer.classList.remove('py-3', 'glass-panel');
+            } else {
+                navContainer.classList.add('py-3', 'glass-panel');
+                navContainer.classList.remove('py-2', 'bg-white/90', 'backdrop-blur-md', 'shadow-sm');
+            }
+        });
+
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        const mobileLinks = document.querySelectorAll('.mobile-link');
+        let menuOpen = false;
+
+        function toggleMenu() {
+            menuOpen = !menuOpen;
+            const spans = mobileMenuBtn.querySelectorAll('span');
+            
+            if(menuOpen) {
+                mobileMenu.classList.add('open');
+                spans[0].style.transform = 'rotate(45deg) translate(5px, 6px)';
+                spans[1].style.opacity = '0';
+                spans[2].style.transform = 'rotate(-45deg) translate(5px, -6px)';
+            } else {
+                mobileMenu.classList.remove('open');
+                spans[0].style.transform = 'none';
+                spans[1].style.opacity = '1';
+                spans[2].style.transform = 'none';
+            }
+        }
+
+        mobileMenuBtn.addEventListener('click', toggleMenu);
+        mobileLinks.forEach(link => link.addEventListener('click', () => { if(menuOpen) toggleMenu(); }));
+
+        function triggerReveals() {
+            const windowHeight = window.innerHeight;
+            const elementVisible = 50;
+            document.querySelectorAll('.reveal, .reveal-scale').forEach(el => {
+                const elementTop = el.getBoundingClientRect().top;
+                if (elementTop < windowHeight - elementVisible) {
+                    el.classList.add('active');
+                }
+            });
+        }
+        window.addEventListener('scroll', triggerReveals);
+
+        const setModal = (id, open) => {
+            const el = document.getElementById(id);
+            if (!el) return;
+            el.classList.toggle('hidden', !open);
+            el.classList.toggle('flex', open);
+            el.setAttribute('aria-hidden', String(!open));
+            document.body.classList.toggle('overflow-hidden', open);
+        };
+
+        let modalTrigger = null;
+        const products = {
+            'hp-250-g10': {
+                brand: 'HP',
+                name: 'لابتوب HP 250 G10',
+                model: 'Model: AL0B9AT#BH5',
+                image: 'hp-250-g10-product.jpg',
+                price: '35,999',
+                warranty: 'سنة',
+                summary: 'Core i3-1315U · ذاكرة 16GB · تخزين 512GB',
+                specs: [
+                    'Intel® Core™ i3-1315U، بتردد يصل إلى 4.5GHz',
+                    'Intel® UHD Graphics',
+                    'ذاكرة 16GB DDR4-3200 MT/s',
+                    'قرص 512GB PCIe NVMe SSD',
+                    'شاشة 15.6 بوصة FHD IPS بدقة 1920×1080 وسطوع 250 nits',
+                    'لوحة مفاتيح بإضاءة خلفية ولوحة أرقام كاملة',
+                    'مكبرات صوت Stereo'
+                ]
+            },
+            'asus-tuf-a16': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF A16',
+                model: 'Model: FA607NUG-WH73',
+                image: 'asus-tuf-a16.jpg',
+                price: '69,999',
+                warranty: 'سنة',
+                summary: 'Ryzen 7 7445HS · RTX 4050 · ذاكرة 16GB',
+                specs: [
+                    'AMD Ryzen™ 7 7445HS، تردد 3.2GHz وذاكرة مخبأة 22MB حتى 4.7GHz',
+                    'NVIDIA® RTX™ 4050 بذاكرة 6GB',
+                    'ذاكرة 16GB DDR5-5600 SO-DIMM',
+                    'قرص 512GB PCIe NVMe SSD',
+                    'شاشة 16 بوصة FHD+ WUXGA بدقة 1920×1200 ومعدل تحديث 144Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 أصلي'
+                ]
+            },
+            'asus-tuf-f16-i5-4050-8gb': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX607VJR-SS53',
+                image: 'asus-tuf-f16-i5-rtx4050-8gb.jpg',
+                price: '64,999',
+                warranty: 'سنة',
+                summary: 'Core 5 210H · RTX 4050 · ذاكرة 8GB',
+                specs: [
+                    'Intel® Core™ 5 210H، ذاكرة مخبأة 12MB وحتى 4.8GHz',
+                    'NVIDIA® RTX™ 4050 بذاكرة 6GB',
+                    'ذاكرة 8GB DDR5-5600 RAM',
+                    'قرص 512GB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ WUXGA بمعدل تحديث 144Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'asus-tuf-f16-i7-4050-16gb': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX607VU-RL167W',
+                image: 'asus-tuf-f16-i7-rtx4050-16gb.jpg',
+                price: '72,299',
+                warranty: 'سنة',
+                summary: 'Core 7 240H · RTX 4050 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ 7 240H، 10 أنوية و16 مسارًا وحتى 5.2GHz',
+                    'NVIDIA® RTX™ 4050 بذاكرة 6GB',
+                    'ذاكرة 16GB DDR5-4800',
+                    'قرص 512GB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ WUXGA بمعدل تحديث 144Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'lenovo-loq-4060-16gb': {
+                brand: 'Lenovo LOQ',
+                name: 'لابتوب Lenovo LOQ 15IRX9',
+                model: 'Model: 83DV00VMED',
+                image: 'lenovo-loq-i7-rtx4060-16gb.jpg',
+                price: '89,999',
+                warranty: 'سنتان',
+                summary: 'Core i7-14700HX · RTX 4060 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ i7-14700HX، 20 نواة و28 مسارًا وحتى 5.5GHz وذاكرة مخبأة 33MB',
+                    'NVIDIA® RTX™ 4060 بذاكرة 8GB',
+                    'ذاكرة 16GB SO-DIMM DDR5-4800',
+                    'قرص 512GB PCIe 4.0 NVMe SSD',
+                    'شاشة 15.6 بوصة FHD بدقة 1920×1080 وتغطية 100% sRGB',
+                    'سطوع 300 nits ومعدل تحديث 144Hz',
+                    'ضمان سنتين'
+                ]
+            },
+            'lenovo-legion-ultra7-5060': {
+                brand: 'Lenovo Legion',
+                name: 'لابتوب Lenovo Legion 5',
+                model: 'Model: 15IAX10 83F0007HED',
+                image: 'lenovo-legion-ultra7-rtx5060.jpg',
+                price: '143,999',
+                warranty: '3 سنوات',
+                summary: 'Core Ultra 7 255HX · RTX 5060 · OLED',
+                specs: [
+                    'Intel® Core™ Ultra 7 255HX، 20 نواة وحتى 5.2GHz وذاكرة مخبأة 30MB',
+                    'تقنية Intel® AI Boost',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB GDDR7',
+                    'ذاكرة 32GB SODIMM DDR5-5600',
+                    'قرص 1TB SSD PCIe 4.0 x4 NVMe',
+                    'شاشة 15.1 بوصة WQXGA OLED بدقة 2560×1600 وسطوع 1000 nits',
+                    'Dolby Vision® ومعدل تحديث 165Hz',
+                    'ضمان 3 سنوات'
+                ]
+            },
+            'asus-tuf-f16-i7-5060-512gb': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX608JMR-RV057W',
+                image: 'asus-tuf-f16-i7-rtx5060-512gb.jpg',
+                price: '85,799',
+                warranty: 'سنة',
+                summary: 'Core i7-14650HX · RTX 5060 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ i7-14650HX، 16 نواة وحتى 5.2GHz وذاكرة مخبأة 30MB',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB',
+                    'ذاكرة 16GB DDR5-5600 SO-DIMM',
+                    'قرص 512GB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ WUXGA بمعدل تحديث 165Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'lenovo-legion-ultra9-5070': {
+                brand: 'Lenovo Legion',
+                name: 'لابتوب Lenovo Legion 5',
+                model: 'Model: 15IAX10 83F0007ZED',
+                image: 'lenovo-legion-ultra9-rtx5070.jpg',
+                price: '164,999',
+                warranty: '3 سنوات',
+                summary: 'Core Ultra 9 275HX · RTX 5070 · OLED',
+                specs: [
+                    'Intel® Core™ Ultra 9 275HX، 24 نواة و24 مسارًا وحتى 5.4GHz وذاكرة مخبأة 36MB',
+                    'NVIDIA® RTX™ 5070 بذاكرة 8GB GDDR7',
+                    'ذاكرة 32GB DDR5-5600 SODIMM',
+                    'قرص 1TB SSD PCIe 4.0 x4 NVMe',
+                    'شاشة 15.1 بوصة WQXGA OLED بدقة 2560×1600 وسطوع 1000 nits',
+                    'Dolby Vision® ومعدل تحديث 165Hz',
+                    'لوحة مفاتيح RGB رباعية المناطق',
+                    'ضمان 3 سنوات'
+                ]
+            },
+            'asus-tuf-f16-i5-3050-8gb': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX607VJB-RL805W',
+                image: 'asus-tuf-f16-i5-rtx3050-8gb.jpg',
+                price: '53,299',
+                warranty: 'سنة',
+                summary: 'Core 5 210H · RTX 3050 · ذاكرة 8GB',
+                specs: [
+                    'Intel® Core™ 5 210H، ذاكرة مخبأة 12MB وحتى 4.8GHz',
+                    'NVIDIA® RTX™ 3050 بذاكرة 6GB',
+                    'ذاكرة 8GB DDR5-5600 RAM',
+                    'قرص 512GB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ بدقة 1920×1200 ومعدل تحديث 144Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'lenovo-loq-5060-24gb': {
+                brand: 'Lenovo LOQ',
+                name: 'لابتوب Lenovo LOQ 15IRX10',
+                model: 'Model: 83JE00WYED',
+                image: 'lenovo-loq-i7-rtx5060-24gb.jpg',
+                price: '86,999',
+                warranty: 'سنتان',
+                summary: 'Core i7-14700HX · RTX 5060 · ذاكرة 24GB',
+                specs: [
+                    'Intel® Core™ i7-14700HX، 20 نواة و28 مسارًا وحتى 5.5GHz وذاكرة مخبأة 33MB',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB GDDR7',
+                    'ذاكرة 24GB DDR5-5600',
+                    'قرص 512GB SSD PCIe 4.0 NVMe',
+                    'شاشة 15.6 بوصة FHD بمعدل تحديث 144Hz وتغطية 100% sRGB',
+                    'سطوع 300 nits',
+                    'ضمان سنتين'
+                ]
+            },
+            'asus-tuf-f16-i7-5060-1tb-95999': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX608JMR-RV017W',
+                image: 'asus-tuf-f16-i7-rtx5060-1tb-95999.jpg',
+                price: '95,999',
+                warranty: 'سنة',
+                summary: 'Core i7-14650HX · RTX 5060 · تخزين 1TB',
+                specs: [
+                    'Intel® Core™ i7-14650HX، 16 نواة وحتى 5.2GHz وذاكرة مخبأة 30MB',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB',
+                    'ذاكرة 16GB DDR5-5600 SO-DIMM',
+                    'قرص 1TB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ WUXGA بمعدل تحديث 165Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'asus-rog-g16-16gb': {
+                brand: 'ASUS ROG',
+                name: 'لابتوب ASUS ROG Strix G16',
+                model: 'Model: G615JMR-AS74',
+                image: 'asus-rog-strix-g16-16gb.jpg',
+                price: '115,999',
+                warranty: 'سنة',
+                summary: 'Core i7-14650HX · RTX 5060 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ i7-14650HX، ذاكرة مخبأة 30MB وحتى 5.2GHz',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB',
+                    'ذاكرة 16GB DDR5-5600',
+                    'قرص 1TB PCIe 4 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ IPS بدقة 1920×1200 ومعدل تحديث 165Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'شريط إضاءة Aura Sync',
+                    'نظام Windows 11 أصلي'
+                ]
+            },
+            'lenovo-loq-5060-16gb': {
+                brand: 'Lenovo LOQ',
+                name: 'لابتوب Lenovo LOQ 15IRX10',
+                model: 'Model: 83JE00D5ED',
+                image: 'lenovo-loq-i7-rtx5060-16gb.jpg',
+                price: '89,999',
+                warranty: 'سنتان',
+                summary: 'Core i7-14700HX · RTX 5060 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ i7-14700HX، 20 نواة و28 مسارًا وحتى 5.5GHz وذاكرة مخبأة 33MB',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB GDDR7',
+                    'ذاكرة 16GB DDR5-5600',
+                    'قرص 512GB SSD PCIe 4.0 NVMe',
+                    'شاشة 15.6 بوصة FHD بمعدل تحديث 144Hz وتغطية 100% sRGB',
+                    'سطوع 300 nits',
+                    'ضمان سنتين'
+                ]
+            },
+            'asus-rog-g16-32gb': {
+                brand: 'ASUS ROG',
+                name: 'لابتوب ASUS ROG Strix G16',
+                model: 'Model: G615JMR-AS74',
+                image: 'asus-rog-strix-g16-32gb.jpg',
+                price: '139,999',
+                warranty: 'سنة',
+                summary: 'Core i7-14650HX · RTX 5060 · ذاكرة 32GB',
+                specs: [
+                    'Intel® Core™ i7-14650HX، ذاكرة مخبأة 30MB وحتى 5.2GHz',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB',
+                    'ذاكرة 32GB DDR5-5600',
+                    'قرص 1TB PCIe 4 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ IPS بدقة 1920×1200 ومعدل تحديث 165Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'شريط إضاءة Aura Sync',
+                    'نظام Windows 11 أصلي'
+                ]
+            },
+            'lenovo-legion-ultra7-5070': {
+                brand: 'Lenovo Legion',
+                name: 'لابتوب Lenovo Legion 5',
+                model: 'Model: 15IAX10 83F00080ED',
+                image: 'lenovo-legion-ultra7-rtx5070.jpg',
+                price: '149,999',
+                warranty: 'سنتان',
+                summary: 'Core Ultra 7 255HX · RTX 5070 · OLED',
+                specs: [
+                    'Intel® Core™ Ultra 7 255HX، 20 نواة وحتى 5.2GHz وذاكرة مخبأة 30MB',
+                    'تقنية Intel® AI Boost',
+                    'NVIDIA® RTX™ 5070 بذاكرة 8GB GDDR7',
+                    'ذاكرة 32GB SODIMM DDR5-5600',
+                    'قرص 1TB SSD PCIe 4.0 x4 NVMe',
+                    'شاشة 15.1 بوصة WQXGA OLED بدقة 2560×1600 وسطوع 1000 nits',
+                    'Dolby Vision® ومعدل تحديث 165Hz',
+                    'ضمان سنتين'
+                ]
+            },
+            'asus-vivobook-15-i7': {
+                brand: 'ASUS VivoBook',
+                name: 'لابتوب ASUS VivoBook 15',
+                model: 'Model: X1504VA-NJ1007',
+                image: 'asus-vivobook-15-i7.jpg',
+                price: '49,999',
+                warranty: 'سنة',
+                summary: 'Core i7-1355U · ذاكرة 16GB · تخزين 512GB',
+                specs: [
+                    'Intel® Core™ i7-1355U، 10 أنوية و12 مسارًا وتردد 3.7GHz وذاكرة مخبأة 12MB',
+                    'Intel® Iris® Xe Graphics',
+                    'ذاكرة 16GB DDR4-3200',
+                    'قرص 512GB SSD PCIe 4.0 NVMe',
+                    'شاشة 15.6 بوصة FHD بدقة 1920×1080',
+                    'الوزن 1.70 كجم'
+                ]
+            },
+            'lenovo-loq-essential-i7': {
+                brand: 'Lenovo LOQ',
+                name: 'لابتوب Lenovo LOQ Essential 15IRX11',
+                model: 'Model: 83SC001NED',
+                image: 'lenovo-loq-essential-i7.jpg',
+                price: '71,999',
+                warranty: 'سنتان',
+                summary: 'Core i7-13650HX · RTX 5050 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ i7-13650HX، 14 نواة و20 مسارًا وحتى 4.9GHz وذاكرة مخبأة 24MB',
+                    'NVIDIA® RTX™ 5050 بذاكرة 8GB',
+                    'ذاكرة 16GB SO-DIMM DDR5-4800',
+                    'قرص 512GB SSD PCIe 4.0 NVMe',
+                    'شاشة 15.6 بوصة FHD IPS بمعدل تحديث 144Hz وتغطية 100% sRGB',
+                    'سطوع 300 nits',
+                    'ضمان سنتين'
+                ]
+            },
+            'asus-tuf-f16-i7-5060-1tb-89299': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX608JMR-RV057W',
+                image: 'asus-tuf-f16-i7-rtx5060-1tb.jpg',
+                price: '89,299',
+                warranty: 'سنة',
+                summary: 'Core i7-14650HX · RTX 5060 · تخزين 1TB',
+                specs: [
+                    'Intel® Core™ i7-14650HX، 16 نواة وحتى 5.2GHz وذاكرة مخبأة 30MB',
+                    'NVIDIA® RTX™ 5060 بذاكرة 8GB',
+                    'ذاكرة 16GB DDR5-5600 SO-DIMM',
+                    'قرص 1TB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ WUXGA بمعدل تحديث 165Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'asus-tuf-f16-i5-4050-16gb': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX607VJR-SS53',
+                image: 'asus-tuf-f16-i5-rtx4050-16gb.jpg',
+                price: '69,999',
+                warranty: 'سنة',
+                summary: 'Core 5 210H · RTX 4050 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ 5 210H، ذاكرة مخبأة 12MB وحتى 4.8GHz',
+                    'NVIDIA® RTX™ 4050 بذاكرة 6GB',
+                    'ذاكرة 16GB DDR5-5600 RAM',
+                    'قرص 512GB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ بدقة 1920×1200 ومعدل تحديث 144Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'lenovo-legion-i9-5070': {
+                brand: 'Lenovo Legion',
+                name: 'لابتوب Lenovo Legion 5',
+                model: 'Model: 15IRX10 83LY009NAX',
+                image: 'lenovo-legion-i9-rtx5070.jpg',
+                price: '149,999',
+                warranty: 'سنة',
+                summary: 'Core i9-14900HX · RTX 5070 · OLED',
+                specs: [
+                    'Intel® Core™ i9-14900HX، 24 نواة و32 مسارًا وحتى 5.8GHz وذاكرة مخبأة 36MB',
+                    'NVIDIA® RTX™ 5070 بذاكرة 8GB GDDR7',
+                    'ذاكرة 32GB DDR5-5600',
+                    'قرص 1TB SSD PCIe 4.0 NVMe',
+                    'شاشة 15.1 بوصة WQXGA OLED بدقة 2560×1600 وسطوع 1000 nits',
+                    'Dolby Vision® ومعدل تحديث 165Hz',
+                    'لوحة مفاتيح RGB رباعية المناطق'
+                ]
+            },
+            'asus-tuf-f16-i7-5050-16gb': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX608JHR-RV057W',
+                image: 'asus-tuf-f16-i7-rtx5050.jpg',
+                price: '79,799',
+                warranty: 'سنة',
+                summary: 'Core i7-14650HX · RTX 5050 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ i7-14650HX، 16 نواة وحتى 5.2GHz وذاكرة مخبأة 30MB',
+                    'NVIDIA® RTX™ 5050 بذاكرة 8GB',
+                    'ذاكرة 16GB DDR5-5600 SO-DIMM',
+                    'قرص 512GB SSD PCIe 4.0 NVMe',
+                    'شاشة 16 بوصة FHD+ WUXGA بمعدل تحديث 165Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            },
+            'asus-tuf-f16-i5-3050-16gb': {
+                brand: 'ASUS TUF',
+                name: 'لابتوب ASUS TUF F16',
+                model: 'Model: FX607VJB-RL805W',
+                image: 'asus-tuf-f16-i5-rtx3050-16gb.jpg',
+                price: '58,799',
+                warranty: 'سنة',
+                summary: 'Core 5 210H · RTX 3050 · ذاكرة 16GB',
+                specs: [
+                    'Intel® Core™ 5 210H، ذاكرة مخبأة 12MB وحتى 4.8GHz',
+                    'NVIDIA® RTX™ 3050 بذاكرة 6GB',
+                    'ذاكرة 16GB DDR5-5600 RAM',
+                    'قرص 512GB PCIe 4.0 NVMe SSD',
+                    'شاشة 16 بوصة FHD+ بدقة 1920×1200 ومعدل تحديث 144Hz',
+                    'لوحة مفاتيح بإضاءة RGB كاملة',
+                    'نظام Windows 11 Home'
+                ]
+            }
+        };
+
+        const productsGrid = document.getElementById('products-grid');
+        productsGrid.innerHTML = Object.entries(products).map(([id, product]) => `
+            <article class="bg-white rounded-2xl border border-gray-200 shadow-soft overflow-hidden w-full reveal group">
+                <div class="relative aspect-square bg-white p-2 sm:p-4 flex items-center justify-center">
+                    <img src="${product.image}" alt="${product.name}" loading="lazy" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300">
+                    <button type="button" data-favorite-product="${id}" aria-pressed="false" aria-label="إضافة ${product.name} إلى المفضلة" title="إضافة إلى المفضلة" class="absolute right-3 top-3 flex h-9 w-9 items-center justify-center rounded-full border border-gray-200 bg-white/95 text-rose-500 shadow-sm transition hover:scale-105 hover:border-rose-200">
+                        <i class="fa-regular fa-heart" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <div class="p-3 sm:p-5 border-t border-gray-100">
+                    <div class="flex flex-wrap items-center justify-between gap-1 sm:gap-2 mb-2 sm:mb-3">
+                        <span class="text-[10px] sm:text-xs font-black text-tech-primary uppercase tracking-wider">${product.brand}</span>
+                        <span class="bg-green-50 text-green-700 border border-green-100 text-[10px] sm:text-xs font-bold px-2 sm:px-3 py-1 rounded-full">ضمان ${product.warranty}</span>
+                    </div>
+                    <h3 class="text-sm sm:text-lg font-black text-tech-dark leading-snug">${product.name}</h3>
+                    <p class="text-[10px] sm:text-xs text-tech-muted mt-1">${product.summary}</p>
+                    <div class="flex flex-wrap justify-between items-end gap-2 mt-3 sm:mt-4">
+                        <p class="text-base sm:text-xl font-black text-tech-dark">${product.price} <span class="text-[10px] sm:text-sm font-bold text-tech-muted">جنيه</span></p>
+                    </div>
+                    <div class="mt-3 grid grid-cols-2 gap-2">
+                        <button type="button" data-product="${id}" data-open-modal="product-details-modal" class="flex min-h-10 w-full items-center justify-center gap-2 rounded-lg border border-blue-100 bg-blue-50 px-2 py-2 text-[11px] font-black text-tech-primary transition-colors hover:border-tech-primary sm:text-xs">
+                            تفاصيل الجهاز <i class="fa-solid fa-arrow-left" aria-hidden="true"></i>
+                        </button>
+                        <button type="button" data-compare-product="${id}" aria-pressed="false" class="flex min-h-10 w-full items-center justify-center gap-1 rounded-lg border border-gray-200 bg-white px-2 py-2 text-[11px] font-black text-tech-dark transition-colors hover:border-tech-primary hover:text-tech-primary sm:text-xs">
+                            <i class="fa-solid fa-scale-balanced" aria-hidden="true"></i>
+                            <span>قارن</span>
+                        </button>
+                    </div>
+                </div>
+            </article>
+        `).join('');
+        triggerReveals();
+
+        const searchToggle = document.getElementById('catalog-search-open');
+        const searchPanel = document.getElementById('catalog-search-panel');
+        const searchInput = document.getElementById('product-search');
+        const searchClearButton = document.getElementById('product-search-clear');
+        const searchStatus = document.getElementById('product-search-status');
+        const searchEmptyState = document.getElementById('product-search-empty');
+        const processorFilter = document.getElementById('processor-filter');
+        const gpuFilter = document.getElementById('gpu-filter');
+        const ramFilter = document.getElementById('ram-filter');
+        const useFilter = document.getElementById('use-filter');
+        const sortOrder = document.getElementById('sort-order');
+        const budgetFilter = document.getElementById('budget-filter');
+        const budgetFilterValue = document.getElementById('budget-filter-value');
+        const filtersToggle = document.getElementById('filters-toggle');
+        const productFiltersPanel = document.getElementById('product-filters-panel');
+        const quickUseButtons = [...document.querySelectorAll('[data-quick-use]')];
+        const favoritesToggle = document.getElementById('favorites-toggle');
+        const favoritesCount = document.getElementById('favorites-count');
+        const favoriteProducts = new Set();
+        let favoritesOnly = false;
+        const productCards = [...productsGrid.children];
+        const productSearchIndex = Object.entries(products).map(([id, product], index) => {
+            const brand = product.brand.toLowerCase();
+            const brandAliases = brand.includes('asus')
+                ? 'اسوس ايسوس أسوس'
+                : brand.includes('lenovo')
+                    ? 'لينوفو'
+                    : brand === 'hp'
+                        ? 'اتش بي اتشبي'
+                        : '';
+            const searchableFields = [
+                id,
+                product.brand,
+                brandAliases,
+                product.name,
+                product.model,
+                product.image,
+                product.summary,
+                product.price,
+                product.warranty,
+                'RAM رام ذاكرة',
+                ...product.specs
+            ];
+            const normalizedText = normalizeProductSearch(searchableFields.join(' '));
+            const extraMemoryTerms = /\b(?:gb|tb)\b/.test(normalizedText) ? ' جيجا جيجابايت تيرا تيرابايت' : '';
+            const brandFilter = brand.includes('lenovo') ? 'lenovo' : brand.includes('asus') ? 'asus' : brand === 'hp' ? 'hp' : '';
+            const specs = product.specs.join(' ');
+            const processor = /amd|ryzen/i.test(specs) ? 'amd' : /intel|core™|core ultra/i.test(specs) ? 'intel' : 'other';
+            const rtxMatch = specs.match(/RTX[^0-9]{0,8}(\d{4})/i);
+            const gpuFilter = rtxMatch ? `rtx-${rtxMatch[1]}` : 'integrated';
+            const ramSpec = product.specs.find(spec => /^(?:ذاكرة|memory)(?:\s|$)/i.test(spec.trim()));
+            const ramMatch = ramSpec?.match(/(?:ذاكرة|memory)\s*(\d+)\s*GB|(\d+)\s*GB\s*(?:DDR|RAM|SODIMM)/i);
+            const ram = Number(ramMatch?.[1] || ramMatch?.[2] || 0);
+            const gpuTier = rtxMatch ? Number(rtxMatch[1]) : 0;
+            const useCases = {
+                gaming: Boolean(rtxMatch),
+                creator: gpuTier >= 4050 && ram >= 16,
+                daily: true
+            };
+            return {
+                id,
+                card: productCards[index],
+                text: `${normalizedText}${extraMemoryTerms}`,
+                brandFilter,
+                processor,
+                gpuFilter,
+                ram,
+                price: Number(product.price.replace(/,/g, '')),
+                order: index,
+                useCases
+            };
+        });
+        const formatPrice = price => new Intl.NumberFormat('en-US').format(price);
+        const minimumProductPrice = Math.min(...productSearchIndex.map(product => product.price));
+        const maximumProductPrice = Math.max(...productSearchIndex.map(product => product.price));
+        budgetFilter.min = String(minimumProductPrice);
+        budgetFilter.max = String(maximumProductPrice);
+        budgetFilter.step = '1000';
+        budgetFilter.value = String(maximumProductPrice);
+        document.getElementById('budget-filter-min').textContent = `${formatPrice(minimumProductPrice)} جنيه`;
+        document.getElementById('budget-filter-max').textContent = `${formatPrice(maximumProductPrice)} جنيه`;
+        const updateBudgetLabel = () => {
+            budgetFilterValue.textContent = `حتى ${formatPrice(Number(budgetFilter.value))} جنيه`;
+        };
+        updateBudgetLabel();
+
+        const updateFavoriteControls = () => {
+            favoritesCount.textContent = String(favoriteProducts.size);
+            favoritesToggle.setAttribute('aria-pressed', String(favoritesOnly));
+            favoritesToggle.classList.toggle('border-rose-300', favoritesOnly);
+            favoritesToggle.classList.toggle('bg-rose-50', favoritesOnly);
+            favoritesToggle.classList.toggle('text-rose-600', favoritesOnly);
+            favoritesToggle.querySelector('span').textContent = favoritesOnly ? 'عرض الكل' : 'المفضلة';
+            favoritesToggle.querySelector('i').className = favoritesOnly
+                ? 'fa-solid fa-heart text-rose-500'
+                : 'fa-regular fa-heart text-rose-500';
+            productsGrid.querySelectorAll('[data-favorite-product]').forEach(button => {
+                const isFavorite = favoriteProducts.has(button.dataset.favoriteProduct);
+                button.setAttribute('aria-pressed', String(isFavorite));
+                button.setAttribute('aria-label', `${isFavorite ? 'إزالة' : 'إضافة'} ${products[button.dataset.favoriteProduct].name} ${isFavorite ? 'من' : 'إلى'} المفضلة`);
+                button.title = isFavorite ? 'إزالة من المفضلة' : 'إضافة إلى المفضلة';
+                button.querySelector('i').className = isFavorite
+                    ? 'fa-solid fa-heart'
+                    : 'fa-regular fa-heart';
+                button.classList.toggle('bg-rose-50', isFavorite);
+                button.classList.toggle('border-rose-200', isFavorite);
+            });
+        };
+
+        const updateQuickUseControls = () => {
+            quickUseButtons.forEach(button => {
+                const selected = button.dataset.quickUse === useFilter.value || (button.dataset.quickUse === 'all' && useFilter.value === 'all');
+                button.setAttribute('aria-pressed', String(selected));
+                button.classList.toggle('border-tech-primary', selected);
+                button.classList.toggle('bg-blue-50', selected);
+                button.classList.toggle('text-tech-primary', selected);
+                button.classList.toggle('border-gray-200', !selected);
+                button.classList.toggle('bg-white', !selected);
+                button.classList.toggle('text-tech-dark', !selected);
+            });
+        };
+        updateFavoriteControls();
+        updateQuickUseControls();
+
+        const selectedForComparison = new Set();
+        const compareDock = document.getElementById('compare-dock');
+        const compareProducts = document.getElementById('compare-products');
+        const compareFeedback = document.getElementById('compare-feedback');
+        const updateComparisonControls = () => {
+            const count = selectedForComparison.size;
+            compareDock.classList.toggle('hidden', count === 0);
+            document.getElementById('compare-dock-count').textContent = `${count} ${count === 1 ? 'جهاز محدد' : 'أجهزة محددة'}`;
+            productsGrid.querySelectorAll('[data-compare-product]').forEach(button => {
+                const selected = selectedForComparison.has(button.dataset.compareProduct);
+                button.setAttribute('aria-pressed', String(selected));
+                button.classList.toggle('border-tech-primary', selected);
+                button.classList.toggle('bg-blue-50', selected);
+                button.classList.toggle('text-tech-primary', selected);
+                button.querySelector('span').textContent = selected ? 'أُضيفت' : 'قارن';
+            });
+        };
+
+        const renderComparison = () => {
+            compareProducts.replaceChildren();
+            compareProducts.scrollTop = 0;
+            const comparedProducts = [...selectedForComparison].map(id => ({ id, product: products[id] }));
+            const comparisonRows = [
+                { label: 'الشركة', value: product => product.brand },
+                { label: 'الموديل', value: product => product.model },
+                { label: 'السعر المعلن', value: product => `${product.price} جنيه` },
+                { label: 'الضمان', value: product => `ضمان ${product.warranty}` },
+                { label: 'ملخص المواصفات', value: product => product.summary },
+                { label: 'المواصفات التفصيلية', value: product => product.specs }
+            ];
+
+            comparedProducts.forEach(({ id, product }) => {
+                const card = document.createElement('article');
+                card.className = 'min-w-0 overflow-hidden rounded-xl border border-gray-200 bg-white';
+
+                const header = document.createElement('div');
+                header.className = 'flex min-w-0 items-center gap-3 border-b border-gray-100 bg-gray-50 p-3';
+                const imageFrame = document.createElement('div');
+                imageFrame.className = 'flex h-16 w-20 shrink-0 items-center justify-center rounded-lg border border-gray-100 bg-white p-1';
+                const image = document.createElement('img');
+                image.src = product.image;
+                image.alt = product.name;
+                image.loading = 'lazy';
+                image.className = 'h-full w-full object-contain';
+                imageFrame.append(image);
+                const heading = document.createElement('div');
+                heading.className = 'min-w-0 flex-1';
+                const title = document.createElement('h3');
+                title.className = 'break-words text-sm font-black leading-snug text-tech-dark';
+                title.textContent = product.name;
+                const model = document.createElement('p');
+                model.className = 'mt-1 break-all text-left text-[11px] font-semibold text-tech-muted';
+                model.dir = 'ltr';
+                model.textContent = product.model;
+                heading.append(title, model);
+                const remove = document.createElement('button');
+                remove.type = 'button';
+                remove.dataset.removeCompare = id;
+                remove.className = 'shrink-0 rounded-lg border border-gray-200 bg-white px-2 py-1.5 text-[10px] font-bold text-tech-danger transition-colors hover:border-tech-danger';
+                remove.textContent = 'إزالة';
+                remove.setAttribute('aria-label', `إزالة ${product.name} من المقارنة`);
+                header.append(imageFrame, heading, remove);
+
+                const details = document.createElement('dl');
+                details.className = 'divide-y divide-gray-100 px-3';
+                comparisonRows.filter(row => row.label !== 'الموديل').forEach(row => {
+                    const entry = document.createElement('div');
+                    entry.className = 'py-3';
+                    const label = document.createElement('dt');
+                    label.className = 'mb-1 text-[11px] font-black text-tech-muted';
+                    label.textContent = row.label;
+                    const value = row.value(product);
+                    if (Array.isArray(value)) {
+                        const list = document.createElement('ul');
+                        list.className = 'space-y-1.5 text-xs font-semibold leading-relaxed text-tech-dark';
+                        value.forEach(spec => {
+                            const item = document.createElement('li');
+                            item.className = 'flex min-w-0 items-start gap-2';
+                            const marker = document.createElement('span');
+                            marker.className = 'mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-tech-primary';
+                            marker.setAttribute('aria-hidden', 'true');
+                            const text = document.createElement('span');
+                            text.className = 'min-w-0 break-words';
+                            text.textContent = spec;
+                            item.append(marker, text);
+                            list.append(item);
+                        });
+                        entry.append(label, list);
+                    } else {
+                        const text = document.createElement('dd');
+                        text.className = 'break-words text-xs font-bold leading-relaxed text-tech-dark';
+                        text.textContent = value;
+                        entry.append(label, text);
+                    }
+                    details.append(entry);
+                });
+                card.append(header, details);
+                compareProducts.append(card);
+            });
+        };
+
+        const brandFilterButtons = [...document.querySelectorAll('[data-brand-filter]')];
+        let selectedBrandFilter = 'all';
+        const gpuOptions = [...new Set(productSearchIndex.map(product => product.gpuFilter))]
+            .sort((a, b) => a.localeCompare(b, undefined, { numeric: true }));
+        gpuOptions.forEach(value => {
+            const option = document.createElement('option');
+            option.value = value;
+            option.textContent = value === 'integrated' ? 'مدمج' : `NVIDIA RTX ${value.slice(4)}`;
+            gpuFilter.append(option);
+        });
+        [...new Set(productSearchIndex.map(product => product.ram).filter(Boolean))]
+            .sort((a, b) => a - b)
+            .forEach(value => {
+                const option = document.createElement('option');
+                option.value = String(value);
+                option.textContent = `${value}GB`;
+                ramFilter.append(option);
+            });
+        const brandCounts = productSearchIndex.reduce((counts, product) => {
+            counts[product.brandFilter] = (counts[product.brandFilter] || 0) + 1;
+            return counts;
+        }, {});
+        brandFilterButtons.forEach(button => {
+            const count = button.dataset.brandFilter === 'all'
+                ? productSearchIndex.length
+                : brandCounts[button.dataset.brandFilter] || 0;
+            button.querySelector('[data-brand-count]').textContent = count;
+        });
+        function normalizeProductSearch(value) {
+            const arabicDigits = '٠١٢٣٤٥٦٧٨٩';
+            const persianDigits = '۰۱۲۳۴۵۶۷۸۹';
+            return value
+                .toLocaleLowerCase()
+                .normalize('NFKD')
+                .replace(/[\u064B-\u065F\u0670\u0640]/g, '')
+                .replace(/[أإآٱ]/g, 'ا')
+                .replace(/[ىی]/g, 'ي')
+                .replace(/ة/g, 'ه')
+                .replace(/[٠-٩۰-۹]/g, digit => {
+                    const index = arabicDigits.includes(digit) ? arabicDigits.indexOf(digit) : persianDigits.indexOf(digit);
+                    return String(index);
+                })
+                .replace(/,/g, '')
+                .replace(/[^\p{L}\p{N}]+/gu, ' ')
+                .trim();
+        }
+
+        function updateProductSearch() {
+            const query = normalizeProductSearch(searchInput.value);
+            const terms = query.split(/\s+/).filter(Boolean);
+            let matchCount = 0;
+            const orderedProducts = [...productSearchIndex];
+            if (sortOrder.value === 'price-ascending') {
+                orderedProducts.sort((a, b) => a.price - b.price || a.order - b.order);
+            } else if (sortOrder.value === 'price-descending') {
+                orderedProducts.sort((a, b) => b.price - a.price || a.order - b.order);
+            }
+
+            orderedProducts.forEach(({ id, card, text, brandFilter, processor, gpuFilter: gpu, ram, price, useCases }) => {
+                const matchesSearch = terms.every(term => text.includes(term));
+                const matchesBrand = selectedBrandFilter === 'all' || brandFilter === selectedBrandFilter;
+                const matchesProcessor = processorFilter.value === 'all' || processor === processorFilter.value;
+                const matchesGpu = gpuFilter.value === 'all' || gpu === gpuFilter.value;
+                const matchesRam = ramFilter.value === 'all' || ram === Number(ramFilter.value);
+                const matchesUse = useFilter.value === 'all' || useCases[useFilter.value];
+                const matchesBudget = price <= Number(budgetFilter.value);
+                const matchesFavorite = !favoritesOnly || favoriteProducts.has(id);
+                const matches = matchesSearch && matchesBrand && matchesProcessor && matchesGpu && matchesRam && matchesUse && matchesBudget && matchesFavorite;
+                card.hidden = !matches;
+                productsGrid.appendChild(card);
+                if (matches) matchCount += 1;
+            });
+
+            brandFilterButtons.forEach(button => {
+                const selected = button.dataset.brandFilter === selectedBrandFilter;
+                button.setAttribute('aria-pressed', String(selected));
+                button.classList.toggle('border-tech-primary', selected);
+                button.classList.toggle('bg-tech-primary', selected);
+                button.classList.toggle('text-white', selected);
+                button.classList.toggle('shadow-sm', selected);
+                button.classList.toggle('border-gray-200', !selected);
+                button.classList.toggle('bg-gray-50', !selected);
+                button.classList.toggle('text-tech-dark', !selected);
+            });
+            searchClearButton.classList.toggle('hidden', !searchInput.value);
+            searchEmptyState.classList.toggle('hidden', matchCount !== 0);
+            searchEmptyState.textContent = favoritesOnly && favoriteProducts.size === 0
+                ? 'لم تضف أجهزة للمفضلة بعد. اضغط على رمز القلب في بطاقة الجهاز لحفظه هنا.'
+                : favoritesOnly && matchCount === 0
+                    ? 'لا توجد أجهزة مفضلة تطابق الفلاتر الحالية. جرّب مسح بعض الفلاتر.'
+                    : 'لا توجد منتجات مطابقة. جرّب اسمًا أو مواصفة أو رقم موديل آخر.';
+            const activeFilters = [
+                favoritesOnly ? 'المفضلة' : '',
+                Number(budgetFilter.value) < maximumProductPrice ? `ميزانية حتى ${formatPrice(Number(budgetFilter.value))} جنيه` : ''
+            ].filter(Boolean);
+            searchStatus.textContent = terms.length
+                ? `نتائج البحث: ${matchCount} من ${productSearchIndex.length} منتجًا${activeFilters.length ? ` · ${activeFilters.join(' · ')}` : ''}`
+                : `يعرض ${matchCount} من ${productSearchIndex.length} جهازًا${activeFilters.length ? ` · ${activeFilters.join(' · ')}` : ''}. رتّب حسب السعر أو ادمج فلاتر المواصفات للوصول لاختيارك.`;
+            triggerReveals();
+        }
+
+        searchInput.addEventListener('input', updateProductSearch);
+        budgetFilter.addEventListener('input', () => {
+            updateBudgetLabel();
+            updateProductSearch();
+        });
+        brandFilterButtons.forEach(button => button.addEventListener('click', () => {
+            selectedBrandFilter = button.dataset.brandFilter;
+            updateProductSearch();
+        }));
+        [processorFilter, gpuFilter, ramFilter, useFilter, sortOrder].forEach(filter => filter.addEventListener('change', () => {
+            updateQuickUseControls();
+            updateProductSearch();
+        }));
+        quickUseButtons.forEach(button => button.addEventListener('click', () => {
+            useFilter.value = button.dataset.quickUse;
+            updateQuickUseControls();
+            updateProductSearch();
+        }));
+        const setFiltersPanelOpen = open => {
+            productFiltersPanel.classList.toggle('hidden', !open);
+            filtersToggle.setAttribute('aria-expanded', String(open));
+        };
+        filtersToggle.addEventListener('click', () => {
+            setFiltersPanelOpen(productFiltersPanel.classList.contains('hidden'));
+        });
+        document.getElementById('filters-close').addEventListener('click', () => setFiltersPanelOpen(false));
+        favoritesToggle.addEventListener('click', () => {
+            favoritesOnly = !favoritesOnly;
+            updateFavoriteControls();
+            updateProductSearch();
+        });
+        productsGrid.addEventListener('click', event => {
+            const button = event.target.closest('[data-favorite-product]');
+            if (!button) return;
+            const id = button.dataset.favoriteProduct;
+            if (favoriteProducts.has(id)) favoriteProducts.delete(id);
+            else favoriteProducts.add(id);
+            updateFavoriteControls();
+            updateProductSearch();
+        });
+        document.getElementById('filters-reset').addEventListener('click', () => {
+            searchInput.value = '';
+            selectedBrandFilter = 'all';
+            processorFilter.value = 'all';
+            gpuFilter.value = 'all';
+            ramFilter.value = 'all';
+            useFilter.value = 'all';
+            sortOrder.value = 'featured';
+            budgetFilter.value = String(maximumProductPrice);
+            favoritesOnly = false;
+            updateBudgetLabel();
+            updateFavoriteControls();
+            updateQuickUseControls();
+            compareFeedback.textContent = '';
+            updateProductSearch();
+        });
+        productsGrid.addEventListener('click', event => {
+            const button = event.target.closest('[data-compare-product]');
+            if (!button) return;
+            const id = button.dataset.compareProduct;
+            if (selectedForComparison.has(id)) {
+                selectedForComparison.delete(id);
+                compareFeedback.textContent = `تمت إزالة ${products[id].name} من المقارنة.`;
+            } else if (selectedForComparison.size >= 3) {
+                compareFeedback.textContent = 'يمكنك مقارنة 3 أجهزة كحد أقصى في الوقت نفسه. أزل جهازًا أولًا لإضافة غيره.';
+                return;
+            } else {
+                selectedForComparison.add(id);
+                compareFeedback.textContent = `تمت إضافة ${products[id].name} للمقارنة.`;
+            }
+            updateComparisonControls();
+        });
+        document.getElementById('compare-open').addEventListener('click', () => {
+            if (selectedForComparison.size < 2) {
+                compareFeedback.textContent = 'اختر جهازين على الأقل لبدء المقارنة.';
+                return;
+            }
+            renderComparison();
+            setModal('compare-modal', true);
+            document.querySelector('#compare-modal [data-close]')?.focus();
+        });
+        document.getElementById('compare-clear').addEventListener('click', () => {
+            selectedForComparison.clear();
+            compareFeedback.textContent = 'تم مسح الأجهزة المحددة للمقارنة.';
+            updateComparisonControls();
+            setModal('compare-modal', false);
+        });
+        compareProducts.addEventListener('click', event => {
+            const button = event.target.closest('[data-remove-compare]');
+            if (!button) return;
+            selectedForComparison.delete(button.dataset.removeCompare);
+            compareFeedback.textContent = `تمت إزالة ${products[button.dataset.removeCompare].name} من المقارنة.`;
+            updateComparisonControls();
+            if (selectedForComparison.size === 0) {
+                setModal('compare-modal', false);
+            } else {
+                renderComparison();
+            }
+        });
+        searchClearButton.addEventListener('click', () => {
+            searchInput.value = '';
+            updateProductSearch();
+            searchInput.focus();
+        });
+        function positionSearchPanel() {
+            const toggleRect = searchToggle.getBoundingClientRect();
+            const panelWidth = searchPanel.getBoundingClientRect().width;
+            const left = Math.max(16, Math.min(
+                toggleRect.right - panelWidth,
+                window.innerWidth - panelWidth - 16
+            ));
+            searchPanel.style.left = `${left}px`;
+            searchPanel.style.top = `${toggleRect.bottom + 8}px`;
+        }
+
+        searchToggle.addEventListener('click', () => {
+            const open = searchPanel.classList.contains('hidden');
+            searchPanel.classList.toggle('hidden', !open);
+            if (open) positionSearchPanel();
+            searchToggle.setAttribute('aria-expanded', String(open));
+            searchToggle.setAttribute('aria-label', open ? 'إخفاء البحث' : 'إظهار البحث');
+            searchToggle.title = open ? 'إخفاء البحث' : 'إظهار البحث (Ctrl+K)';
+            searchToggle.querySelector('i').className = open
+                ? 'fa-solid fa-xmark text-lg'
+                : 'fa-solid fa-magnifying-glass text-lg';
+            if (open) searchInput.focus({ preventScroll: true });
+        });
+        document.addEventListener('keydown', event => {
+            if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') {
+                event.preventDefault();
+                if (searchPanel.classList.contains('hidden')) searchToggle.click();
+                else searchInput.focus({ preventScroll: true });
+            }
+        });
+        window.addEventListener('resize', () => {
+            if (!searchPanel.classList.contains('hidden')) positionSearchPanel();
+        });
+        document.addEventListener('click', event => {
+            if (!searchPanel.classList.contains('hidden') && !document.getElementById('navbar').contains(event.target)) {
+                searchPanel.classList.add('hidden');
+                searchToggle.setAttribute('aria-expanded', 'false');
+                searchToggle.setAttribute('aria-label', 'إظهار البحث');
+                searchToggle.title = 'إظهار البحث (Ctrl+K)';
+                searchToggle.querySelector('i').className = 'fa-solid fa-magnifying-glass text-lg';
+            }
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape' && !searchPanel.classList.contains('hidden')) {
+                searchPanel.classList.add('hidden');
+                searchToggle.setAttribute('aria-expanded', 'false');
+                searchToggle.setAttribute('aria-label', 'إظهار البحث');
+                searchToggle.title = 'إظهار البحث (Ctrl+K)';
+                searchToggle.querySelector('i').className = 'fa-solid fa-magnifying-glass text-lg';
+                searchToggle.focus();
+            }
+        });
+        updateProductSearch();
+
+        let suppressProductHistoryPush = false;
+        document.querySelectorAll('[data-open-modal]').forEach(button => {
+            button.addEventListener('click', () => {
+                const modal = document.getElementById(button.dataset.openModal);
+                if (!modal) return;
+                const product = products[button.dataset.product];
+                if (!product) return;
+
+                const productUrl = new URL(window.location.href);
+                productUrl.searchParams.set('product', button.dataset.product);
+                if (!suppressProductHistoryPush) {
+                    window.history.pushState({ product: button.dataset.product }, '', productUrl);
+                }
+                const shareUrlInput = document.getElementById('product-share-url');
+                shareUrlInput.value = productUrl.href;
+                shareUrlInput.classList.add('hidden');
+                document.getElementById('product-share-status').textContent = '';
+                document.title = `${product.name} | الأهرام جروب`;
+
+                modal.querySelector('#product-details-brand').textContent = product.brand;
+                modal.querySelector('#product-details-title').textContent = product.name;
+                modal.querySelector('#product-details-model').textContent = product.model;
+                modal.querySelector('#product-details-price').textContent = `${product.price} جنيه`;
+                modal.querySelector('#product-details-warranty').textContent = `ضمان ${product.warranty}`;
+                const whatsappLink = modal.querySelector('#product-whatsapp-link');
+                whatsappLink.href = `https://wa.me/201280001266?text=${encodeURIComponent('مرحبًا، أستفسر عن ' + product.name + ' بسعر ' + product.price + ' جنيه.')}`;
+
+                const image = modal.querySelector('#product-details-image');
+                image.src = product.image;
+                image.alt = product.name;
+
+                const specs = modal.querySelector('#product-details-specs');
+                specs.textContent = '';
+                product.specs.forEach(spec => {
+                    const item = document.createElement('li');
+                    item.className = 'flex items-start gap-3';
+                    const marker = document.createElement('span');
+                    marker.className = 'w-2 h-2 rounded-full bg-tech-primary mt-1.5 shrink-0';
+                    marker.setAttribute('aria-hidden', 'true');
+                    const text = document.createElement('span');
+                    text.textContent = spec;
+                    item.append(marker, text);
+                    specs.appendChild(item);
+                });
+
+                modalTrigger = button;
+                setModal(modal.id, true);
+                modal.querySelector('[data-close]')?.focus();
+            });
+        });
+
+        const closeModal = id => {
+            setModal(id, false);
+            if (id === 'product-details-modal') {
+                const productUrl = new URL(window.location.href);
+                productUrl.searchParams.delete('product');
+                window.history.replaceState(null, '', productUrl);
+                document.title = 'الأهرام جروب | لابتوبات جديدة بضمان في المنصورة';
+            }
+            modalTrigger?.focus();
+            modalTrigger = null;
+        };
+
+        document.getElementById('product-share-button').addEventListener('click', async () => {
+            const productUrl = document.getElementById('product-share-url');
+            const status = document.getElementById('product-share-status');
+            const shareData = { title: document.getElementById('product-details-title').textContent, url: productUrl.value };
+            try {
+                if (navigator.share) {
+                    await navigator.share(shareData);
+                    status.textContent = 'تم فتح خيارات المشاركة.';
+                } else if (navigator.clipboard?.writeText) {
+                    await navigator.clipboard.writeText(shareData.url);
+                    status.textContent = 'تم نسخ رابط المنتج.';
+                } else {
+                    productUrl.classList.remove('hidden');
+                    productUrl.select();
+                    status.textContent = 'انسخ الرابط المحدد لمشاركته.';
+                }
+            } catch (error) {
+                if (error.name === 'AbortError') return;
+                productUrl.classList.remove('hidden');
+                productUrl.select();
+                status.textContent = 'تعذر النسخ تلقائيًا؛ انسخ الرابط المحدد.';
+            }
+        });
+
+        document.querySelectorAll('[data-close]').forEach(btn => btn.addEventListener('click', () => closeModal(btn.dataset.close)));
+        document.querySelectorAll('[role="dialog"]').forEach(modal => {
+            modal.addEventListener('click', event => {
+                if (event.target === modal) closeModal(modal.id);
+            });
+        });
+        document.addEventListener('keydown', event => {
+            if (event.key === 'Escape') {
+                document.querySelectorAll('[role="dialog"]:not(.hidden)').forEach(modal => closeModal(modal.id));
+            }
+        });
+        window.addEventListener('popstate', () => {
+            const productId = new URLSearchParams(window.location.search).get('product');
+            if (productId && products[productId]) {
+                suppressProductHistoryPush = true;
+                document.querySelector(`[data-product="${CSS.escape(productId)}"][data-open-modal]`)?.click();
+                suppressProductHistoryPush = false;
+            } else if (!document.getElementById('product-details-modal').classList.contains('hidden')) {
+                setModal('product-details-modal', false);
+                modalTrigger?.focus();
+                modalTrigger = null;
+                document.title = 'الأهرام جروب | لابتوبات جديدة بضمان في المنصورة';
+            }
+        });
+        const sharedProductId = new URLSearchParams(window.location.search).get('product');
+        if (sharedProductId && products[sharedProductId]) {
+            suppressProductHistoryPush = true;
+            document.querySelector(`[data-product="${CSS.escape(sharedProductId)}"][data-open-modal]`)?.click();
+            suppressProductHistoryPush = false;
+        }
+
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if(targetId === '#') return;
+                const targetElement = document.querySelector(targetId);
+                if(targetElement) {
+                    const offset = targetElement.getBoundingClientRect().top + window.pageYOffset - 80;
+                    window.scrollTo({ top: offset, behavior: 'smooth' });
+                    if(menuOpen) toggleMenu();
+                }
+            });
+        });
+    </script>
+</body>
+</html>
